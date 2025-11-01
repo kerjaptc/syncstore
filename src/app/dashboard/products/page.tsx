@@ -7,56 +7,66 @@ import {
   Plus, 
   Package, 
   Upload, 
-
   BarChart3,
-  AlertTriangle
+  AlertTriangle,
+  Search,
+  Filter
 } from 'lucide-react';
-import { ProductDataTable } from '@/components/products/product-data-table';
-import { ProductFilters, type ProductFilters as ProductFiltersType } from '@/components/products/product-filters';
-import { ProductFormDialog } from '@/components/products/product-form-dialog';
-import { BulkOperationsDialog } from '@/components/products/bulk-operations-dialog';
-import { PlatformMappingDialog } from '@/components/products/platform-mapping-dialog';
+import { Input } from '@/components/ui/input';
 import { CustomPagination } from '@/components/ui/custom-pagination';
-import { ProductWithVariants, StoreWithRelations, PaginatedResponse } from '@/types';
 import { toast } from 'sonner';
 import { useAuth } from '@clerk/nextjs';
 
+// Types for master catalog
+interface MasterProduct {
+  id: string;
+  masterSku: string;
+  name: string;
+  description: string;
+  basePrice: string;
+  currency: string;
+  platformPrices: Record<string, number>;
+  status: string;
+  brand: string;
+  category: any;
+  images: string[];
+  hasVariants: boolean;
+  totalStock: number;
+  createdAt: string;
+  updatedAt: string;
+}
+
+interface PaginatedResponse<T> {
+  data: T[];
+  pagination: {
+    page: number;
+    limit: number;
+    total: number;
+    totalPages: number;
+    hasNext: boolean;
+    hasPrev: boolean;
+  };
+}
+
 export default function ProductsPage() {
   const { isLoaded } = useAuth();
-  const [products, setProducts] = useState<ProductWithVariants[]>([]);
-  const [stores, setStores] = useState<StoreWithRelations[]>([]);
-  const [categories, setCategories] = useState<string[]>([]);
-  const [brands, setBrands] = useState<string[]>([]);
+  const [products, setProducts] = useState<MasterProduct[]>([]);
   const [loading, setLoading] = useState(true);
+  const [searchQuery, setSearchQuery] = useState('');
   const [pagination, setPagination] = useState({
     page: 1,
-    limit: 20,
+    limit: 50, // Phase 2 requirement: max 50 products per page
     total: 0,
     totalPages: 0,
     hasNext: false,
     hasPrev: false,
   });
-  
-  // Dialog states
-  const [showProductForm, setShowProductForm] = useState(false);
-  const [showBulkOperations, setShowBulkOperations] = useState(false);
-  const [showPlatformMapping, setShowPlatformMapping] = useState(false);
-  const [selectedProduct, setSelectedProduct] = useState<ProductWithVariants | undefined>();
-  
-  // Filters
-  const [filters, setFilters] = useState<ProductFiltersType>({
-    sortBy: 'createdAt',
-    sortOrder: 'desc',
-  });
 
   useEffect(() => {
     if (isLoaded) {
       loadProducts();
-      loadCategories();
-      loadBrands();
-      loadStores();
     }
-  }, [isLoaded, filters, pagination.page]);
+  }, [isLoaded, pagination.page, searchQuery]);
 
   const loadProducts = async () => {
     try {
@@ -64,22 +74,19 @@ export default function ProductsPage() {
       const params = new URLSearchParams({
         page: pagination.page.toString(),
         limit: pagination.limit.toString(),
-        sortBy: filters.sortBy || 'createdAt',
-        sortOrder: filters.sortOrder || 'desc',
       });
 
-      if (filters.search) params.append('search', filters.search);
-      if (filters.category) params.append('category', filters.category);
-      if (filters.brand) params.append('brand', filters.brand);
-      if (filters.isActive !== undefined) params.append('isActive', filters.isActive.toString());
+      if (searchQuery) {
+        params.append('search', searchQuery);
+      }
 
-      const response = await fetch(`/api/products?${params}`);
+      const response = await fetch(`/api/master-products?${params}`);
       if (!response.ok) {
         throw new Error('Failed to load products');
       }
 
       const result = await response.json();
-      const data: PaginatedResponse<ProductWithVariants> = result.data;
+      const data: PaginatedResponse<MasterProduct> = result.data;
       
       setProducts(data.data);
       setPagination(data.pagination);
@@ -91,137 +98,45 @@ export default function ProductsPage() {
     }
   };
 
-  const loadCategories = async () => {
-    try {
-      const response = await fetch('/api/products/categories');
-      if (response.ok) {
-        const result = await response.json();
-        setCategories(result.data);
-      }
-    } catch (error) {
-      console.error('Error loading categories:', error);
-    }
-  };
-
-  const loadBrands = async () => {
-    try {
-      const response = await fetch('/api/products/brands');
-      if (response.ok) {
-        const result = await response.json();
-        setBrands(result.data);
-      }
-    } catch (error) {
-      console.error('Error loading brands:', error);
-    }
-  };
-
-  const loadStores = async () => {
-    try {
-      const response = await fetch('/api/stores');
-      if (response.ok) {
-        const result = await response.json();
-        setStores(result.data);
-      }
-    } catch (error) {
-      console.error('Error loading stores:', error);
-    }
-  };
-
-  const handleFiltersChange = (newFilters: ProductFiltersType) => {
-    setFilters(newFilters);
-    setPagination(prev => ({ ...prev, page: 1 }));
-  };
-
   const handlePageChange = (page: number) => {
     setPagination(prev => ({ ...prev, page }));
   };
 
-  const handleCreateProduct = async (data: Record<string, any>) => {
-    const response = await fetch('/api/products', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data),
-    });
-
-    if (!response.ok) {
-      const error = await response.json();
-      throw new Error(error.error?.message || 'Failed to create product');
-    }
-
-    await loadProducts();
-    await loadCategories();
-    await loadBrands();
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchQuery(e.target.value);
+    setPagination(prev => ({ ...prev, page: 1 }));
   };
 
-  const handleUpdateProduct = async (data: Record<string, any>) => {
-    if (!selectedProduct) return;
-
-    const response = await fetch(`/api/products/${selectedProduct.id}`, {
-      method: 'PUT',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data),
-    });
-
-    if (!response.ok) {
-      const error = await response.json();
-      throw new Error(error.error?.message || 'Failed to update product');
-    }
-
-    await loadProducts();
-    await loadCategories();
-    await loadBrands();
+  const formatPrice = (price: string, currency: string = 'IDR') => {
+    const numPrice = parseFloat(price);
+    return new Intl.NumberFormat('id-ID', {
+      style: 'currency',
+      currency: currency,
+      minimumFractionDigits: 0,
+    }).format(numPrice);
   };
 
-  const handleEditProduct = (product: ProductWithVariants) => {
-    setSelectedProduct(product);
-    setShowProductForm(true);
+  const getShopeePrice = (product: MasterProduct) => {
+    const basePrice = parseFloat(product.basePrice);
+    return basePrice * 1.15; // Phase 1 pricing: Shopee = base × 1.15
   };
 
-  const handleViewProduct = (product: ProductWithVariants) => {
-    // For now, just show the edit dialog
-    handleEditProduct(product);
+  const getTikTokPrice = (product: MasterProduct) => {
+    const basePrice = parseFloat(product.basePrice);
+    return basePrice * 1.20; // Phase 1 pricing: TikTok = base × 1.20
   };
 
-  const handleDeleteProduct = async (product: ProductWithVariants) => {
-    if (!confirm(`Are you sure you want to delete "${product.name}"?`)) {
-      return;
-    }
-
-    try {
-      const response = await fetch(`/api/products/${product.id}`, {
-        method: 'DELETE',
-      });
-
-      if (!response.ok) {
-        throw new Error('Failed to delete product');
-      }
-
-      toast.success('Product deleted successfully');
-      await loadProducts();
-    } catch (error) {
-      toast.error('Failed to delete product');
-    }
-  };
-
-  const handleDuplicateProduct = (product: ProductWithVariants) => {
-    const duplicateData = {
-      ...product,
-      name: `${product.name} (Copy)`,
-      sku: '', // Let it auto-generate
-    };
-    setSelectedProduct(duplicateData as ProductWithVariants);
-    setShowProductForm(true);
-  };
-
-
-
-  const handleProductFormClose = () => {
-    setShowProductForm(false);
-    setSelectedProduct(undefined);
+  const getSyncStatus = (product: MasterProduct) => {
+    // For now, return 'not_synced' - will be updated when sync functionality is implemented
+    return 'not_synced';
   };
 
   if (!isLoaded) {
-    return <div>Loading...</div>;
+    return (
+      <div className="flex items-center justify-center min-h-[400px]">
+        <div className="text-muted-foreground">Loading...</div>
+      </div>
+    );
   }
 
   return (
@@ -231,92 +146,44 @@ export default function ProductsPage() {
         <div>
           <h1 className="text-3xl font-bold tracking-tight">Products</h1>
           <p className="text-muted-foreground">
-            Manage your product catalog and platform mappings
+            Master product catalog with pricing and sync status
           </p>
         </div>
-        <div className="flex items-center gap-2">
-          <Button
-            variant="outline"
-            onClick={() => setShowBulkOperations(true)}
-          >
-            <Upload className="h-4 w-4 mr-2" />
-            Bulk Operations
-          </Button>
-          <Button onClick={() => setShowProductForm(true)}>
-            <Plus className="h-4 w-4 mr-2" />
-            Add Product
-          </Button>
+      </div>
+
+      {/* Stats Card */}
+      <Card>
+        <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+          <CardTitle className="text-sm font-medium">Total Products</CardTitle>
+          <Package className="h-4 w-4 text-muted-foreground" />
+        </CardHeader>
+        <CardContent>
+          <div className="text-2xl font-bold">{pagination.total}</div>
+          <p className="text-xs text-muted-foreground">
+            Products in master catalog
+          </p>
+        </CardContent>
+      </Card>
+
+      {/* Search */}
+      <div className="flex items-center space-x-2">
+        <div className="relative flex-1 max-w-sm">
+          <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
+          <Input
+            placeholder="Search products..."
+            value={searchQuery}
+            onChange={handleSearchChange}
+            className="pl-8"
+          />
         </div>
       </div>
-
-      {/* Stats Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <Card>
-          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-            <CardTitle className="text-sm font-medium">Total Products</CardTitle>
-            <Package className="h-4 w-4 text-muted-foreground" />
-          </CardHeader>
-          <CardContent>
-            <div className="text-2xl font-bold">{pagination.total}</div>
-            <p className="text-xs text-muted-foreground">
-              Active products in catalog
-            </p>
-          </CardContent>
-        </Card>
-        
-        <Card>
-          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-            <CardTitle className="text-sm font-medium">Categories</CardTitle>
-            <BarChart3 className="h-4 w-4 text-muted-foreground" />
-          </CardHeader>
-          <CardContent>
-            <div className="text-2xl font-bold">{categories.length}</div>
-            <p className="text-xs text-muted-foreground">
-              Product categories
-            </p>
-          </CardContent>
-        </Card>
-        
-        <Card>
-          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-            <CardTitle className="text-sm font-medium">Brands</CardTitle>
-            <Package className="h-4 w-4 text-muted-foreground" />
-          </CardHeader>
-          <CardContent>
-            <div className="text-2xl font-bold">{brands.length}</div>
-            <p className="text-xs text-muted-foreground">
-              Product brands
-            </p>
-          </CardContent>
-        </Card>
-        
-        <Card>
-          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-            <CardTitle className="text-sm font-medium">Connected Stores</CardTitle>
-            <AlertTriangle className="h-4 w-4 text-muted-foreground" />
-          </CardHeader>
-          <CardContent>
-            <div className="text-2xl font-bold">{stores.length}</div>
-            <p className="text-xs text-muted-foreground">
-              Platform connections
-            </p>
-          </CardContent>
-        </Card>
-      </div>
-
-      {/* Filters */}
-      <ProductFilters
-        onFiltersChange={handleFiltersChange}
-        categories={categories}
-        brands={brands}
-      />
 
       {/* Products Table */}
       <Card>
         <CardHeader>
           <CardTitle>Products</CardTitle>
           <CardDescription>
-            Manage your product catalog, variants, and platform mappings.
+            Master catalog with platform-specific pricing and sync status
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -324,16 +191,77 @@ export default function ProductsPage() {
             <div className="flex items-center justify-center py-8">
               <div className="text-muted-foreground">Loading products...</div>
             </div>
+          ) : products.length === 0 ? (
+            <div className="flex items-center justify-center py-8">
+              <div className="text-muted-foreground">No products found</div>
+            </div>
           ) : (
             <>
-              <ProductDataTable
-                products={products}
-                onEdit={handleEditProduct}
-                onView={handleViewProduct}
-                onDelete={handleDeleteProduct}
-                onDuplicate={handleDuplicateProduct}
-              />
+              {/* Table */}
+              <div className="overflow-x-auto">
+                <table className="w-full">
+                  <thead>
+                    <tr className="border-b">
+                      <th className="text-left p-2 font-medium">Product ID</th>
+                      <th className="text-left p-2 font-medium">Title</th>
+                      <th className="text-left p-2 font-medium">Master Price</th>
+                      <th className="text-left p-2 font-medium">Shopee Price</th>
+                      <th className="text-left p-2 font-medium">TikTok Price</th>
+                      <th className="text-left p-2 font-medium">Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {products.map((product) => (
+                      <tr key={product.id} className="border-b hover:bg-muted/50">
+                        <td className="p-2">
+                          <div className="font-mono text-sm">{product.masterSku}</div>
+                        </td>
+                        <td className="p-2">
+                          <div className="font-medium">
+                            <a 
+                              href={`/dashboard/products/${product.id}`}
+                              className="text-blue-600 hover:text-blue-800 hover:underline"
+                            >
+                              {product.name}
+                            </a>
+                          </div>
+                          <div className="text-sm text-muted-foreground">
+                            {product.brand} • {typeof product.category === 'object' ? product.category?.name || 'No category' : product.category || 'No category'}
+                          </div>
+                        </td>
+                        <td className="p-2">
+                          <div className="font-medium">
+                            {formatPrice(product.basePrice, product.currency)}
+                          </div>
+                        </td>
+                        <td className="p-2">
+                          <div className="font-medium">
+                            {formatPrice(getShopeePrice(product).toString(), product.currency)}
+                          </div>
+                          <div className="text-xs text-muted-foreground">
+                            Base × 1.15
+                          </div>
+                        </td>
+                        <td className="p-2">
+                          <div className="font-medium">
+                            {formatPrice(getTikTokPrice(product).toString(), product.currency)}
+                          </div>
+                          <div className="text-xs text-muted-foreground">
+                            Base × 1.20
+                          </div>
+                        </td>
+                        <td className="p-2">
+                          <div className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
+                            {getSyncStatus(product) === 'not_synced' ? 'Not Synced' : 'Synced'}
+                          </div>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
               
+              {/* Pagination */}
               {pagination.totalPages > 1 && (
                 <div className="mt-4">
                   <CustomPagination
@@ -347,31 +275,6 @@ export default function ProductsPage() {
           )}
         </CardContent>
       </Card>
-
-      {/* Dialogs */}
-      <ProductFormDialog
-        open={showProductForm}
-        onOpenChange={handleProductFormClose}
-        product={selectedProduct}
-        onSubmit={selectedProduct?.id ? handleUpdateProduct : handleCreateProduct}
-        categories={categories}
-        brands={brands}
-      />
-
-      <BulkOperationsDialog
-        open={showBulkOperations}
-        onOpenChange={setShowBulkOperations}
-        onImportComplete={loadProducts}
-      />
-
-      {selectedProduct && (
-        <PlatformMappingDialog
-          open={showPlatformMapping}
-          onOpenChange={setShowPlatformMapping}
-          product={selectedProduct}
-          stores={stores}
-        />
-      )}
     </div>
   );
 }
