@@ -5,6 +5,7 @@ import { useParams, useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { ErrorBoundary, LoadingSkeleton } from '@/components/ui/error-boundary';
 import { ArrowLeft, Package, DollarSign, Globe } from 'lucide-react';
 import { toast } from 'sonner';
 
@@ -84,8 +85,37 @@ export default function ProductDetailPage() {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center min-h-[400px]">
-        <div className="text-muted-foreground">Loading product...</div>
+      <div className="space-y-6">
+        <div className="flex items-center gap-4">
+          <div className="h-8 w-24 bg-muted rounded animate-pulse"></div>
+          <div>
+            <div className="h-8 w-64 bg-muted rounded animate-pulse mb-2"></div>
+            <div className="h-4 w-32 bg-muted rounded animate-pulse"></div>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div className="lg:col-span-2">
+            <Card>
+              <CardHeader>
+                <div className="h-6 w-48 bg-muted rounded animate-pulse"></div>
+                <div className="h-4 w-64 bg-muted rounded animate-pulse"></div>
+              </CardHeader>
+              <CardContent>
+                <LoadingSkeleton rows={8} />
+              </CardContent>
+            </Card>
+          </div>
+          <div className="space-y-6">
+            <Card>
+              <CardHeader>
+                <div className="h-6 w-32 bg-muted rounded animate-pulse"></div>
+              </CardHeader>
+              <CardContent>
+                <LoadingSkeleton rows={4} />
+              </CardContent>
+            </Card>
+          </div>
+        </div>
       </div>
     );
   }
@@ -105,7 +135,8 @@ export default function ProductDetailPage() {
   }
 
   return (
-    <div className="space-y-6">
+    <ErrorBoundary>
+      <div className="space-y-6">
       {/* Header */}
       <div className="flex items-center gap-4">
         <Button
@@ -274,5 +305,6 @@ export default function ProductDetailPage() {
         </div>
       </div>
     </div>
+    </ErrorBoundary>
   );
 }

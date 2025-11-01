@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { CustomPagination } from '@/components/ui/custom-pagination';
+import { ErrorBoundary, TableLoadingSkeleton } from '@/components/ui/error-boundary';
 import { toast } from 'sonner';
 import { useAuth } from '@clerk/nextjs';
 
@@ -187,18 +188,25 @@ export default function ProductsPage() {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          {loading ? (
-            <div className="flex items-center justify-center py-8">
-              <div className="text-muted-foreground">Loading products...</div>
-            </div>
-          ) : products.length === 0 ? (
-            <div className="flex items-center justify-center py-8">
-              <div className="text-muted-foreground">No products found</div>
-            </div>
-          ) : (
+          <ErrorBoundary>
+            {loading ? (
+              <TableLoadingSkeleton rows={10} cols={6} />
+            ) : products.length === 0 ? (
+              <div className="flex items-center justify-center py-8">
+                <div className="text-center">
+                  <Package className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
+                  <div className="text-muted-foreground">No products found</div>
+                  {searchQuery && (
+                    <div className="text-sm text-muted-foreground mt-1">
+                      Try adjusting your search query
+                    </div>
+                  )}
+                </div>
+              </div>
+            ) : (
             <>
-              {/* Table */}
-              <div className="overflow-x-auto">
+              {/* Table - Desktop */}
+              <div className="hidden md:block overflow-x-auto">
                 <table className="w-full">
                   <thead>
                     <tr className="border-b">
@@ -260,6 +268,56 @@ export default function ProductsPage() {
                   </tbody>
                 </table>
               </div>
+
+              {/* Cards - Mobile */}
+              <div className="md:hidden space-y-4">
+                {products.map((product) => (
+                  <Card key={product.id} className="p-4">
+                    <div className="space-y-3">
+                      <div className="flex justify-between items-start">
+                        <div className="flex-1">
+                          <a 
+                            href={`/dashboard/products/${product.id}`}
+                            className="text-blue-600 hover:text-blue-800 hover:underline font-medium"
+                          >
+                            {product.name}
+                          </a>
+                          <div className="text-sm text-muted-foreground">
+                            {product.masterSku}
+                          </div>
+                          <div className="text-sm text-muted-foreground">
+                            {product.brand} • {typeof product.category === 'object' ? product.category?.name || 'No category' : product.category || 'No category'}
+                          </div>
+                        </div>
+                        <div className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
+                          {getSyncStatus(product) === 'not_synced' ? 'Not Synced' : 'Synced'}
+                        </div>
+                      </div>
+                      
+                      <div className="grid grid-cols-3 gap-2 text-sm">
+                        <div>
+                          <div className="text-muted-foreground">Master</div>
+                          <div className="font-medium">
+                            {formatPrice(product.basePrice, product.currency)}
+                          </div>
+                        </div>
+                        <div>
+                          <div className="text-muted-foreground">Shopee</div>
+                          <div className="font-medium">
+                            {formatPrice(getShopeePrice(product).toString(), product.currency)}
+                          </div>
+                        </div>
+                        <div>
+                          <div className="text-muted-foreground">TikTok</div>
+                          <div className="font-medium">
+                            {formatPrice(getTikTokPrice(product).toString(), product.currency)}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </Card>
+                ))}
+              </div>
               
               {/* Pagination */}
               {pagination.totalPages > 1 && (
@@ -272,7 +330,8 @@ export default function ProductsPage() {
                 </div>
               )}
             </>
-          )}
+            )}
+          </ErrorBoundary>
         </CardContent>
       </Card>
     </div>
