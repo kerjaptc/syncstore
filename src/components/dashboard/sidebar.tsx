@@ -112,7 +112,7 @@ export function DashboardSidebar({ user }: SidebarProps) {
           </div>
           {!isCollapsed && (
             <span className="text-lg font-semibold bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 bg-clip-text text-transparent">
-              StoreSync
+              SyncStore
             </span>
           )}
         </div>

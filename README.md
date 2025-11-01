@@ -1,4 +1,4 @@
-# StoreSync 🏪
+# SyncStore 🏪
 
 > Cross-platform e-commerce store management system for unified multi-marketplace operations
 
@@ -10,7 +10,7 @@
 
 ## 🚀 Overview
 
-StoreSync is a comprehensive cross-platform e-commerce management system designed to unify store operations across multiple marketplaces and channels. It provides centralized control for multi-platform selling operations, focusing on synchronizing inventory, managing orders, and providing business intelligence.
+SyncStore is a comprehensive cross-platform e-commerce management system designed to unify store operations across multiple marketplaces and channels. It provides centralized control for multi-platform selling operations, focusing on synchronizing inventory, managing orders, and providing business intelligence.
 
 **🎯 Current Development Focus**: Completing Shopee integration and preparing for multi-platform expansion.
 

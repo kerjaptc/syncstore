@@ -1,5 +1,5 @@
 {
-  "name": "storesync",
+  "name": "syncstore",
   "version": "0.1.0",
   "private": true,
   "description": "Cross-platform e-commerce store management system",

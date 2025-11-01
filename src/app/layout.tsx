@@ -31,8 +31,8 @@ const parkinsans = Parkinsans({
 
 export const metadata: Metadata = {
   title: {
-    default: 'StoreSync - Cross-Platform E-Commerce Management',
-    template: '%s | StoreSync',
+    default: 'SyncStore - Cross-Platform E-Commerce Management',
+    template: '%s | SyncStore',
   },
   description:
     'Unified e-commerce management system for multi-platform selling operations. Synchronize inventory, manage orders, and grow your business across Shopee, TikTok Shop, and custom websites.',
@@ -45,9 +45,9 @@ export const metadata: Metadata = {
     'tiktok shop',
     'synchronization',
   ],
-  authors: [{ name: 'StoreSync Team' }],
-  creator: 'StoreSync Team',
-  publisher: 'StoreSync',
+  authors: [{ name: 'SyncStore Team' }],
+  creator: 'SyncStore Team',
+  publisher: 'SyncStore',
 };
 
 export default function RootLayout({

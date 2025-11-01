@@ -60,7 +60,7 @@ export const env = createEnv({
     
     // App Configuration
     NEXT_PUBLIC_APP_URL: z.string().url().default("http://localhost:3000"),
-    NEXT_PUBLIC_APP_NAME: z.string().default("StoreSync"),
+    NEXT_PUBLIC_APP_NAME: z.string().default("SyncStore"),
     
     // Supabase Public
     NEXT_PUBLIC_SUPABASE_URL: z.string().url().optional(),
