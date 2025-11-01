@@ -89,13 +89,15 @@ export class SyncWorker {
           external_id: syncResult.external_id,
           pricing: syncResult.pricing,
           seo_titles: syncResult.seo_titles,
+          response_time: syncResult.response_time,
         } : {
           error_code: syncResult.error_code,
           error_message: syncResult.error_message,
         },
         syncResult.success ? null : syncResult.error_message,
         syncResult.success ? null : syncResult.error_code,
-        batch_id
+        batch_id,
+        job.attemptsMade || 1
       );
 
       await job.updateProgress(100);
@@ -132,7 +134,8 @@ export class SyncWorker {
         },
         error instanceof Error ? error.message : 'Unknown error',
         'WORKER_ERROR',
-        batch_id
+        batch_id,
+        job.attemptsMade || 1
       );
 
       throw error;
@@ -193,8 +196,13 @@ export class SyncWorker {
    * Perform sync operation (simulated for now)
    */
   private async performSync(product: any, platform: 'shopee' | 'tiktok' | 'both', jobId: string) {
+    const startTime = Date.now();
+    
     // Simulate API call delay
-    await new Promise(resolve => setTimeout(resolve, 1000 + Math.random() * 2000));
+    const delay = 1000 + Math.random() * 2000;
+    await new Promise(resolve => setTimeout(resolve, delay));
+
+    const responseTime = Date.now() - startTime;
 
     // Simulate occasional failures (5% chance)
     if (Math.random() < 0.05) {
@@ -205,6 +213,7 @@ export class SyncWorker {
         success: false,
         error_code: errorCode,
         error_message: this.getErrorMessage(errorCode),
+        response_time: responseTime,
       };
     }
 
@@ -231,11 +240,13 @@ export class SyncWorker {
       external_id,
       pricing,
       seo_titles: this.generateSEOTitles(product, platform),
+      response_time: responseTime,
     };
   }
 
   /**
    * Log sync operation to database
+   * Task 5.4: Log all sync operations to database
    */
   private async logSyncOperation(
     productId: string,
@@ -245,25 +256,42 @@ export class SyncWorker {
     responsePayload: any,
     errorMessage: string | null,
     errorCode: string | null,
-    batchId?: string
+    batchId?: string,
+    attempts: number = 1
   ) {
     try {
-      await db.insert(syncLogs).values({
+      // Enhanced logging with more details
+      const logEntry = {
         batchId: batchId || null,
         productId,
         platform,
         status,
-        requestPayload,
-        responsePayload,
+        requestPayload: {
+          ...requestPayload,
+          logged_at: new Date().toISOString(),
+          worker_id: process.pid,
+        },
+        responsePayload: {
+          ...responsePayload,
+          response_time: responsePayload.response_time || null,
+          api_version: responsePayload.api_version || 'v1',
+        },
         platformProductId: status === 'success' ? 
-          (typeof responsePayload.external_id === 'string' ? responsePayload.external_id : JSON.stringify(responsePayload.external_id)) : null,
+          (typeof responsePayload.external_id === 'string' ? 
+            responsePayload.external_id : 
+            JSON.stringify(responsePayload.external_id)) : null,
         errorMessage,
         errorCode,
-        attempts: 1,
+        attempts,
         syncedAt: new Date(),
-      });
+      };
+
+      await db.insert(syncLogs).values(logEntry);
+      
+      console.log(`[SYNC_LOG] ${status.toUpperCase()} - Product: ${productId}, Platform: ${platform}, Batch: ${batchId || 'N/A'}`);
     } catch (error) {
       console.error('Failed to log sync operation:', error);
+      // Don't throw error to avoid breaking the sync process
     }
   }
 

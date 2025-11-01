@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { requireAuth } from '@/lib/auth';
-import { syncQueueService } from '@/lib/queue/syncQueue';
-import { z } from 'zod';
+import { JobStatusService } from '@/lib/queue/jobStatus';
 
 // GET /api/sync/batch/status?batch_id=xxx - Get batch sync status
 export async function GET(request: NextRequest) {
@@ -23,10 +22,10 @@ export async function GET(request: NextRequest) {
       );
     }
 
-    // Get batch status from queue service
-    const batchStatus = await syncQueueService.getBatchStatus(batch_id);
+    // Get batch status using JobStatusService
+    const batchStatus = await JobStatusService.getBatchStatus(batch_id);
 
-    if (batchStatus.total_jobs === 0) {
+    if (!batchStatus) {
       return NextResponse.json(
         {
           success: false,
@@ -39,26 +38,21 @@ export async function GET(request: NextRequest) {
       );
     }
 
-    // Calculate progress percentage
-    const progressPercentage = batchStatus.total_jobs > 0 
-      ? Math.round(((batchStatus.completed + batchStatus.failed) / batchStatus.total_jobs) * 100)
-      : 0;
-
-    // Estimate remaining time
-    const remainingJobs = batchStatus.pending + batchStatus.in_progress;
-    const estimatedRemainingMinutes = Math.ceil(remainingJobs * 0.5); // 30 seconds per job
+    // Add computed fields for UI
+    const responseData = {
+      ...batchStatus,
+      is_complete: batchStatus.status === 'completed' || batchStatus.status === 'failed' || batchStatus.status === 'mixed',
+      success_rate: batchStatus.total_jobs > 0 
+        ? Math.round((batchStatus.completed / batchStatus.total_jobs) * 100)
+        : 0,
+      failure_rate: batchStatus.total_jobs > 0 
+        ? Math.round((batchStatus.failed / batchStatus.total_jobs) * 100)
+        : 0,
+    };
 
     return NextResponse.json({
       success: true,
-      data: {
-        ...batchStatus,
-        progress_percentage: progressPercentage,
-        estimated_remaining_minutes: estimatedRemainingMinutes,
-        is_complete: batchStatus.status === 'completed' || batchStatus.status === 'completed_with_errors',
-        success_rate: batchStatus.total_jobs > 0 
-          ? Math.round((batchStatus.completed / batchStatus.total_jobs) * 100)
-          : 0,
-      },
+      data: responseData,
     });
 
   } catch (error) {
