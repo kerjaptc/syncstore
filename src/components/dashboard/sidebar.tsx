@@ -21,6 +21,7 @@ import {
   Menu,
   ChevronLeft,
   ChevronRight,
+  TestTube,
 } from 'lucide-react';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { OrganizationSelector } from './organization-selector';
@@ -56,6 +57,13 @@ const navigationItems = [
     href: '/dashboard/products',
     icon: Package,
     description: 'Product catalog management',
+  },
+  {
+    title: 'Product Test',
+    href: '/dashboard/products/test',
+    icon: TestTube,
+    description: 'Pilot testing for manual sync',
+    badge: 'Phase 2',
   },
   {
     title: 'Inventory',
