@@ -9,6 +9,8 @@ import { masterProducts } from '@/lib/db/master-catalog-schema';
 import { syncLogs } from '@/lib/db/sync-logs-schema';
 import { eq, and } from 'drizzle-orm';
 import { redis } from './syncQueue';
+import { RetryStrategyService } from './retryStrategy';
+import { DeadLetterQueueService } from './deadLetterQueue';
 import type { SyncJob, BatchSyncJob } from './syncQueue';
 
 /**
@@ -19,7 +21,10 @@ export class SyncWorker {
   private batchWorker: Worker;
 
   constructor() {
-    // Create worker for individual sync jobs
+    // Initialize dead letter queue
+    DeadLetterQueueService.initialize();
+
+    // Create worker for individual sync jobs with enhanced retry logic
     this.worker = new Worker(
       'product-sync',
       this.processSyncJob.bind(this),
@@ -28,6 +33,10 @@ export class SyncWorker {
         concurrency: 5, // Process up to 5 jobs concurrently
         removeOnComplete: 50,
         removeOnFail: 100,
+        // Enhanced retry settings
+        settings: {
+          retryProcessDelay: 5000, // 5 second delay before retrying failed jobs
+        },
       }
     );
 
@@ -118,7 +127,17 @@ export class SyncWorker {
     } catch (error) {
       console.error(`[WORKER] Sync job ${job.id} failed:`, error);
       
-      // Log failed operation
+      // Enhanced error handling with retry strategy
+      const retryInfo = RetryStrategyService.getRetryInfo(
+        error,
+        job.attemptsMade || 1,
+        platform
+      );
+
+      console.log(`[WORKER] Error classification:`, retryInfo.classification);
+      console.log(`[WORKER] Retry decision:`, retryInfo.retryDecision);
+
+      // Log failed operation with retry information
       await this.logSyncOperation(
         product_id,
         platform,
@@ -128,15 +147,33 @@ export class SyncWorker {
           batch_id,
           target_platform: platform,
           timestamp: timestamp.toISOString(),
+          retry_info: retryInfo,
         },
         {
           error_message: error instanceof Error ? error.message : 'Unknown error',
+          error_classification: retryInfo.classification,
+          retry_decision: retryInfo.retryDecision,
         },
         error instanceof Error ? error.message : 'Unknown error',
-        'WORKER_ERROR',
+        retryInfo.classification.category,
         batch_id,
         job.attemptsMade || 1
       );
+
+      // Check if this is the final attempt
+      if (!retryInfo.retryDecision.shouldRetry) {
+        console.log(`[WORKER] Moving job ${job.id} to dead letter queue: ${retryInfo.retryDecision.reason}`);
+        
+        try {
+          await DeadLetterQueueService.moveToDeadLetterQueue(
+            job,
+            error instanceof Error ? error : new Error(String(error)),
+            retryInfo.classification.category
+          );
+        } catch (dlqError) {
+          console.error(`[WORKER] Failed to move job to DLQ:`, dlqError);
+        }
+      }
 
       throw error;
     }
@@ -342,8 +379,23 @@ export class SyncWorker {
       console.log(`[WORKER] Job ${job.id} completed successfully`);
     });
 
-    this.worker.on('failed', (job, err) => {
+    this.worker.on('failed', async (job, err) => {
       console.error(`[WORKER] Job ${job?.id} failed:`, err.message);
+      
+      if (job) {
+        const retryInfo = RetryStrategyService.getRetryInfo(
+          err,
+          job.attemptsMade || 1,
+          job.data.platform
+        );
+        
+        console.log(`[WORKER] Job ${job.id} failure analysis:`, {
+          attempts: job.attemptsMade,
+          classification: retryInfo.classification.category,
+          retryable: retryInfo.classification.retryable,
+          shouldRetry: retryInfo.retryDecision.shouldRetry,
+        });
+      }
     });
 
     this.worker.on('error', (err) => {

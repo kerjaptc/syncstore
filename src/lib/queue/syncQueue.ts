@@ -5,6 +5,7 @@
 
 import { Queue, QueueOptions } from 'bullmq';
 import { Redis } from 'ioredis';
+import { RetryStrategyService } from './retryStrategy';
 
 // Job interface for sync operations
 export interface SyncJob {
@@ -40,11 +41,11 @@ const redisConfig = {
 // Create Redis connection
 export const redis = new Redis(redisConfig);
 
-// Queue options with retry configuration
+// Queue options with enhanced retry configuration
 const queueOptions: QueueOptions = {
   connection: redis,
   defaultJobOptions: {
-    attempts: 3,
+    attempts: 3, // Default attempts, can be overridden per platform
     backoff: {
       type: 'exponential',
       delay: 2000, // Start with 2 seconds, then 4s, 8s
@@ -65,9 +66,12 @@ export const batchSyncQueue = new Queue('batch-sync', queueOptions);
  */
 export class SyncQueueService {
   /**
-   * Add a single product sync job to the queue
+   * Add a single product sync job to the queue with platform-specific retry config
    */
   async addSyncJob(jobData: SyncJob): Promise<string> {
+    // Get platform-specific retry configuration
+    const retryConfig = RetryStrategyService.getRetryConfig(jobData.platform);
+    
     const job = await syncQueue.add(
       'sync-product',
       jobData,
@@ -75,9 +79,16 @@ export class SyncQueueService {
         priority: this.getPriority(jobData.priority),
         delay: 0,
         jobId: `sync_${jobData.product_id}_${jobData.platform}_${Date.now()}`,
+        // Apply platform-specific retry settings
+        attempts: retryConfig.maxAttempts,
+        backoff: {
+          type: 'exponential',
+          delay: retryConfig.baseDelay,
+        },
       }
     );
 
+    console.log(`📋 Added sync job: ${job.id} for product ${jobData.product_id} to ${jobData.platform} (max attempts: ${retryConfig.maxAttempts})`);
     return job.id!;
   }
 
@@ -106,6 +117,9 @@ export class SyncQueueService {
     batchId: string,
     organizationId: string
   ): Promise<string[]> {
+    // Get platform-specific retry configuration
+    const retryConfig = RetryStrategyService.getRetryConfig(platform);
+    
     const jobs = productIds.map((productId, index) => ({
       name: 'sync-product',
       data: {
@@ -124,6 +138,12 @@ export class SyncQueueService {
         priority: 1,
         delay: index * 100, // Stagger jobs by 100ms to avoid rate limits
         jobId: `sync_${productId}_${platform}_${batchId}_${index}`,
+        // Apply platform-specific retry settings
+        attempts: retryConfig.maxAttempts,
+        backoff: {
+          type: 'exponential',
+          delay: retryConfig.baseDelay,
+        },
       },
     }));
 
