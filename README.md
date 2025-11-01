@@ -38,7 +38,7 @@ SyncStore is a comprehensive cross-platform e-commerce management system designe
 
 ## 🏗️ Architecture
 
-StoreSync follows a modular monolith architecture with microservices readiness:
+SyncStore follows a modular monolith architecture with microservices readiness:
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -288,10 +288,10 @@ This project uses:
 
 ```bash
 # Build the Docker image
-docker build -t storesync .
+docker build -t syncstore .
 
 # Run the container
-docker run -p 3000:3000 --env-file .env.local storesync
+docker run -p 3000:3000 --env-file .env.local syncstore
 ```
 
 ### Environment-Specific Deployments

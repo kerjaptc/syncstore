@@ -10,7 +10,7 @@
     "orders",
     "sync"
   ],
-  "author": "StoreSync Team",
+  "author": "SyncStore Team",
   "license": "MIT",
   "scripts": {
     "dev": "next dev --turbopack",

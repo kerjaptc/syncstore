@@ -45,7 +45,7 @@ export default async function OnboardingPage() {
       <div className="w-full max-w-2xl mx-auto px-4">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 bg-clip-text text-transparent">
-            Welcome to StoreSync
+            Welcome to SyncStore
           </h1>
           <p className="text-muted-foreground mt-2">
             Let's set up your organization to get started
