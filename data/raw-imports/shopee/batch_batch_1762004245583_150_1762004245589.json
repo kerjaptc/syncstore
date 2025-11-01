@@ -1,0 +1,3617 @@
+{
+  "batchId": "batch_1762004245583_150",
+  "platform": "shopee",
+  "products": [
+    {
+      "item_id": 123456939,
+      "category_id": 100001,
+      "item_name": "Frame Racing Drone 4 Inch Aluminum",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-151",
+      "create_time": 1749449476324.1423,
+      "update_time": 1760974736418.2173,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456940,
+      "category_id": 100001,
+      "item_name": "Propeller High Performance 7 Inch Titanium",
+      "description": "High-performance component designed for professional FPV pilots. Lightweight yet durable construction. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-152",
+      "create_time": 1752452163312.7256,
+      "update_time": 1760167840098.001,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456941,
+      "category_id": 100001,
+      "item_name": "Battery LiPo 5 Inch Titanium",
+      "description": "Professional-grade part with excellent build quality. Suitable for both beginners and advanced users. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-153",
+      "create_time": 1744219005335.512,
+      "update_time": 1760439579378.9707,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": false,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456942,
+      "category_id": 100001,
+      "item_name": "Motor Brushless 6 Inch Plastic",
+      "description": "Top-tier component with superior performance characteristics. Ideal for competitive racing. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-154",
+      "create_time": 1752766263338.2905,
+      "update_time": 1761149226142.6294,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456943,
+      "category_id": 100001,
+      "item_name": "ESC Speed Controller 7 Inch Aluminum",
+      "description": "Quality assured part with rigorous testing. Perfect for custom drone builds. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-155",
+      "create_time": 1732605739113.0427,
+      "update_time": 1760569391915.2578,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456944,
+      "category_id": 100001,
+      "item_name": "Camera FPV 4 Inch Aluminum",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-156",
+      "create_time": 1759783923491.4685,
+      "update_time": 1760350342110.8267,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": false,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456945,
+      "category_id": 100001,
+      "item_name": "Antenna Receiver 3 Inch Carbon Fiber",
+      "description": "High-performance component designed for professional FPV pilots. Lightweight yet durable construction. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-157",
+      "create_time": 1738580396410.4265,
+      "update_time": 1760665260307.6843,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": false,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456946,
+      "category_id": 100001,
+      "item_name": "Landing Gear 4 Inch Plastic",
+      "description": "Professional-grade part with excellent build quality. Suitable for both beginners and advanced users. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-158",
+      "create_time": 1732508390312.6172,
+      "update_time": 1759993997947.12,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456947,
+      "category_id": 100001,
+      "item_name": "Gimbal Stabilizer 9 Inch Aluminum",
+      "description": "Top-tier component with superior performance characteristics. Ideal for competitive racing. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-159",
+      "create_time": 1734044598437.6714,
+      "update_time": 1761107355045.9163,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456948,
+      "category_id": 100001,
+      "item_name": "Remote Controller 5 Inch Carbon Fiber",
+      "description": "Quality assured part with rigorous testing. Perfect for custom drone builds. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-160",
+      "create_time": 1751055608554.7163,
+      "update_time": 1760764367790.9749,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": false,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456949,
+      "category_id": 100001,
+      "item_name": "Frame Racing Drone 6 Inch Aluminum",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-161",
+      "create_time": 1754307625199.8054,
+      "update_time": 1761805646039.8354,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456950,
+      "category_id": 100001,
+      "item_name": "Propeller High Performance 5 Inch Aluminum",
+      "description": "High-performance component designed for professional FPV pilots. Lightweight yet durable construction. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-162",
+      "create_time": 1745896911665.1648,
+      "update_time": 1760372115554.508,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456951,
+      "category_id": 100001,
+      "item_name": "Battery LiPo 5 Inch Carbon Fiber",
+      "description": "Professional-grade part with excellent build quality. Suitable for both beginners and advanced users. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-163",
+      "create_time": 1751560183052.5552,
+      "update_time": 1759557363606.7612,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456952,
+      "category_id": 100001,
+      "item_name": "Motor Brushless 3 Inch Titanium",
+      "description": "Top-tier component with superior performance characteristics. Ideal for competitive racing. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-164",
+      "create_time": 1752695658469.32,
+      "update_time": 1760722160300.4607,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": false,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456953,
+      "category_id": 100001,
+      "item_name": "ESC Speed Controller 3 Inch Carbon Fiber",
+      "description": "Quality assured part with rigorous testing. Perfect for custom drone builds. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-165",
+      "create_time": 1746931771429.4502,
+      "update_time": 1761517311073.2036,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": false,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456954,
+      "category_id": 100001,
+      "item_name": "Camera FPV 3 Inch Plastic",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-166",
+      "create_time": 1751311617808.966,
+      "update_time": 1759422971329.759,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456955,
+      "category_id": 100001,
+      "item_name": "Antenna Receiver 9 Inch Plastic",
+      "description": "High-performance component designed for professional FPV pilots. Lightweight yet durable construction. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-167",
+      "create_time": 1753762165645.108,
+      "update_time": 1759469136598.3257,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": false,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456956,
+      "category_id": 100001,
+      "item_name": "Landing Gear 7 Inch Carbon Fiber",
+      "description": "Professional-grade part with excellent build quality. Suitable for both beginners and advanced users. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-168",
+      "create_time": 1747977223350.7744,
+      "update_time": 1761986609907.1917,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456957,
+      "category_id": 100001,
+      "item_name": "Gimbal Stabilizer 7 Inch Titanium",
+      "description": "Top-tier component with superior performance characteristics. Ideal for competitive racing. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-169",
+      "create_time": 1747976732411.223,
+      "update_time": 1760701096431.302,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": false,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456958,
+      "category_id": 100001,
+      "item_name": "Remote Controller 4 Inch Carbon Fiber",
+      "description": "Quality assured part with rigorous testing. Perfect for custom drone builds. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-170",
+      "create_time": 1758365733900.8857,
+      "update_time": 1760093635272.7327,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": false,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456959,
+      "category_id": 100001,
+      "item_name": "Frame Racing Drone 7 Inch Carbon Fiber",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-171",
+      "create_time": 1731315646857.1572,
+      "update_time": 1759974618558.4724,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456960,
+      "category_id": 100001,
+      "item_name": "Propeller High Performance 6 Inch Carbon Fiber",
+      "description": "High-performance component designed for professional FPV pilots. Lightweight yet durable construction. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-172",
+      "create_time": 1748256095239.855,
+      "update_time": 1760685425525.409,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456961,
+      "category_id": 100001,
+      "item_name": "Battery LiPo 7 Inch Titanium",
+      "description": "Professional-grade part with excellent build quality. Suitable for both beginners and advanced users. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-173",
+      "create_time": 1743350520173.9958,
+      "update_time": 1760583933498.6301,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": false,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456962,
+      "category_id": 100001,
+      "item_name": "Motor Brushless 5 Inch Carbon Fiber",
+      "description": "Top-tier component with superior performance characteristics. Ideal for competitive racing. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-174",
+      "create_time": 1743178320792.9758,
+      "update_time": 1760200711166.9119,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456963,
+      "category_id": 100001,
+      "item_name": "ESC Speed Controller 7 Inch Carbon Fiber",
+      "description": "Quality assured part with rigorous testing. Perfect for custom drone builds. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-175",
+      "create_time": 1752020726678.5117,
+      "update_time": 1761728652558.085,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456964,
+      "category_id": 100001,
+      "item_name": "Camera FPV 6 Inch Aluminum",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-176",
+      "create_time": 1755251710079.8508,
+      "update_time": 1761523075635.1458,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456965,
+      "category_id": 100001,
+      "item_name": "Antenna Receiver 9 Inch Carbon Fiber",
+      "description": "High-performance component designed for professional FPV pilots. Lightweight yet durable construction. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-177",
+      "create_time": 1740863813658.0576,
+      "update_time": 1759652732980.0544,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": false,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456966,
+      "category_id": 100001,
+      "item_name": "Landing Gear 6 Inch Carbon Fiber",
+      "description": "Professional-grade part with excellent build quality. Suitable for both beginners and advanced users. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-178",
+      "create_time": 1736944286623.14,
+      "update_time": 1760586968002.1616,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456967,
+      "category_id": 100001,
+      "item_name": "Gimbal Stabilizer 5 Inch Aluminum",
+      "description": "Top-tier component with superior performance characteristics. Ideal for competitive racing. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-179",
+      "create_time": 1757970252090.0142,
+      "update_time": 1761521268946.8828,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456968,
+      "category_id": 100001,
+      "item_name": "Remote Controller 6 Inch Plastic",
+      "description": "Quality assured part with rigorous testing. Perfect for custom drone builds. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-180",
+      "create_time": 1735449081433.0002,
+      "update_time": 1760589021087.2686,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": false,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456969,
+      "category_id": 100001,
+      "item_name": "Frame Racing Drone 9 Inch Titanium",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-181",
+      "create_time": 1758971432241.4353,
+      "update_time": 1761198792965.3704,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": false,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456970,
+      "category_id": 100001,
+      "item_name": "Propeller High Performance 6 Inch Titanium",
+      "description": "High-performance component designed for professional FPV pilots. Lightweight yet durable construction. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-182",
+      "create_time": 1734286764541.304,
+      "update_time": 1760381648650.559,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456971,
+      "category_id": 100001,
+      "item_name": "Battery LiPo 9 Inch Titanium",
+      "description": "Professional-grade part with excellent build quality. Suitable for both beginners and advanced users. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-183",
+      "create_time": 1740648299614.795,
+      "update_time": 1760983957501.4993,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456972,
+      "category_id": 100001,
+      "item_name": "Motor Brushless 3 Inch Plastic",
+      "description": "Top-tier component with superior performance characteristics. Ideal for competitive racing. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-184",
+      "create_time": 1740814945867.5388,
+      "update_time": 1759845664794.7334,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456973,
+      "category_id": 100001,
+      "item_name": "ESC Speed Controller 5 Inch Plastic",
+      "description": "Quality assured part with rigorous testing. Perfect for custom drone builds. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-185",
+      "create_time": 1754631757225.4604,
+      "update_time": 1759718536623.7822,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456974,
+      "category_id": 100001,
+      "item_name": "Camera FPV 3 Inch Plastic",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-186",
+      "create_time": 1750853439910.8062,
+      "update_time": 1761212135331.9968,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456975,
+      "category_id": 100001,
+      "item_name": "Antenna Receiver 4 Inch Carbon Fiber",
+      "description": "High-performance component designed for professional FPV pilots. Lightweight yet durable construction. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-187",
+      "create_time": 1761903646726.7053,
+      "update_time": 1760460136754.2227,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456976,
+      "category_id": 100001,
+      "item_name": "Landing Gear 4 Inch Plastic",
+      "description": "Professional-grade part with excellent build quality. Suitable for both beginners and advanced users. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-188",
+      "create_time": 1754529825398.6863,
+      "update_time": 1761459821326.581,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456977,
+      "category_id": 100001,
+      "item_name": "Gimbal Stabilizer 4 Inch Titanium",
+      "description": "Top-tier component with superior performance characteristics. Ideal for competitive racing. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-189",
+      "create_time": 1751965289658.1328,
+      "update_time": 1760216637356.0298,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": false,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456978,
+      "category_id": 100001,
+      "item_name": "Remote Controller 9 Inch Aluminum",
+      "description": "Quality assured part with rigorous testing. Perfect for custom drone builds. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-190",
+      "create_time": 1732673932432.5315,
+      "update_time": 1759857025718.6777,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456979,
+      "category_id": 100001,
+      "item_name": "Frame Racing Drone 4 Inch Aluminum",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-191",
+      "create_time": 1746602959482.8115,
+      "update_time": 1759525113223.7856,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456980,
+      "category_id": 100001,
+      "item_name": "Propeller High Performance 9 Inch Titanium",
+      "description": "High-performance component designed for professional FPV pilots. Lightweight yet durable construction. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-192",
+      "create_time": 1748279144781.2615,
+      "update_time": 1760238206498.7742,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456981,
+      "category_id": 100001,
+      "item_name": "Battery LiPo 3 Inch Plastic",
+      "description": "Professional-grade part with excellent build quality. Suitable for both beginners and advanced users. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-193",
+      "create_time": 1758345202199.7651,
+      "update_time": 1759422946690.6929,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": false,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456982,
+      "category_id": 100001,
+      "item_name": "Motor Brushless 5 Inch Carbon Fiber",
+      "description": "Top-tier component with superior performance characteristics. Ideal for competitive racing. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-194",
+      "create_time": 1758857611392.8452,
+      "update_time": 1759842588620.3372,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": false,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456983,
+      "category_id": 100001,
+      "item_name": "ESC Speed Controller 7 Inch Aluminum",
+      "description": "Quality assured part with rigorous testing. Perfect for custom drone builds. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-195",
+      "create_time": 1742086540988.6428,
+      "update_time": 1760989616246.3906,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456984,
+      "category_id": 100001,
+      "item_name": "Camera FPV 3 Inch Carbon Fiber",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-196",
+      "create_time": 1740261679309.4565,
+      "update_time": 1761955013246.5225,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456985,
+      "category_id": 100001,
+      "item_name": "Antenna Receiver 9 Inch Aluminum",
+      "description": "High-performance component designed for professional FPV pilots. Lightweight yet durable construction. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-197",
+      "create_time": 1742190534061.3462,
+      "update_time": 1761428514375.8093,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456986,
+      "category_id": 100001,
+      "item_name": "Landing Gear 3 Inch Titanium",
+      "description": "Professional-grade part with excellent build quality. Suitable for both beginners and advanced users. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-198",
+      "create_time": 1747869111469.701,
+      "update_time": 1760842937699.4553,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": false,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456987,
+      "category_id": 100001,
+      "item_name": "Gimbal Stabilizer 3 Inch Aluminum",
+      "description": "Top-tier component with superior performance characteristics. Ideal for competitive racing. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-199",
+      "create_time": 1754899110669.975,
+      "update_time": 1761840937140.1633,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": true,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    },
+    {
+      "item_id": 123456988,
+      "category_id": 100001,
+      "item_name": "Remote Controller 5 Inch Titanium",
+      "description": "Quality assured part with rigorous testing. Perfect for custom drone builds. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "item_sku": "PRODUCT-200",
+      "create_time": 1759799338609.866,
+      "update_time": 1759870620455.339,
+      "attribute_list": [
+        {
+          "attribute_id": 1001,
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_id": 1002,
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_id": 1003,
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "image": {
+        "image_url_list": [
+          "https://cf.shopee.co.id/file/frame-5inch-main.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-side.jpg",
+          "https://cf.shopee.co.id/file/frame-5inch-detail.jpg"
+        ],
+        "image_id_list": [
+          "img001",
+          "img002",
+          "img003"
+        ]
+      },
+      "weight": 0.05,
+      "dimension": {
+        "package_length": 25,
+        "package_width": 25,
+        "package_height": 5
+      },
+      "logistic_info": [
+        {
+          "logistic_id": 80001,
+          "logistic_name": "J&T Express",
+          "enabled": true
+        },
+        {
+          "logistic_id": 80002,
+          "logistic_name": "JNE",
+          "enabled": true
+        }
+      ],
+      "pre_order": {
+        "is_pre_order": true,
+        "days_to_ship": 5
+      },
+      "item_status": "NORMAL",
+      "has_model": false,
+      "promotion_id": 0,
+      "brand": {
+        "brand_id": 2001,
+        "original_brand_name": "Motekar FPV"
+      },
+      "item_dangerous": 0,
+      "complaint_policy": {
+        "warranty_time": 30,
+        "exclude_entrepreneur_warranty": false
+      }
+    }
+  ],
+  "metadata": {
+    "importedAt": "2025-11-01T13:37:25.589Z",
+    "source": "shopee_api_batch",
+    "version": "1.0",
+    "organizationId": "mock-org",
+    "storeId": "mock-store"
+  },
+  "stats": {
+    "totalProducts": 50,
+    "productsWithVariants": 0
+  }
+}

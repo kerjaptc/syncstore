@@ -1,0 +1,145 @@
+{
+  "summary": {
+    "analysisDate": "2025-11-01T16:28:52.919Z",
+    "shopeeDataPath": "./data/raw-imports/shopee",
+    "tiktokDataPath": "./data/raw-imports/tiktokshop",
+    "analysisVersion": "1.0.0"
+  },
+  "productOverlap": {
+    "totalShopeeProducts": 2,
+    "totalTikTokProducts": 2,
+    "commonProducts": 1,
+    "overlapPercentage": 50,
+    "shopeeOnlyProducts": [
+      "shopee_2"
+    ],
+    "tiktokOnlyProducts": [
+      "tiktok_2"
+    ],
+    "similarProducts": [
+      {
+        "shopeeProduct": {
+          "item_id": "shopee_1",
+          "item_name": "Racing Frame 5 Inch Carbon Fiber",
+          "price": 150000,
+          "images": [
+            "img1.jpg",
+            "img2.jpg"
+          ],
+          "weight": 0.5,
+          "category_id": "frames"
+        },
+        "tiktokProduct": {
+          "product_id": "tiktok_1",
+          "product_name": "Racing Frame 5 Inch Carbon",
+          "price": 155000,
+          "images": [
+            {
+              "url": "img1.jpg"
+            },
+            {
+              "url": "img2.jpg"
+            }
+          ],
+          "weight": 0.5,
+          "category_id": "frames",
+          "include_tokopedia": true
+        },
+        "similarityScore": 0.85,
+        "matchingFields": [
+          "title",
+          "category",
+          "weight"
+        ]
+      }
+    ]
+  },
+  "fieldMapping": {
+    "commonFields": [
+      {
+        "fieldName": "price",
+        "shopeeField": "price",
+        "tiktokField": "price",
+        "dataType": "number",
+        "presentInShopee": 2,
+        "presentInTikTok": 2,
+        "matchPercentage": 100
+      },
+      {
+        "fieldName": "weight",
+        "shopeeField": "weight",
+        "tiktokField": "weight",
+        "dataType": "number",
+        "presentInShopee": 2,
+        "presentInTikTok": 2,
+        "matchPercentage": 100
+      }
+    ],
+    "shopeeOnlyFields": [
+      {
+        "fieldName": "item_id",
+        "dataType": "string",
+        "frequency": 2,
+        "sampleValues": [
+          "shopee_1",
+          "shopee_2"
+        ]
+      }
+    ],
+    "tiktokOnlyFields": [
+      {
+        "fieldName": "product_id",
+        "dataType": "string",
+        "frequency": 2,
+        "sampleValues": [
+          "tiktok_1",
+          "tiktok_2"
+        ]
+      },
+      {
+        "fieldName": "include_tokopedia",
+        "dataType": "boolean",
+        "frequency": 2,
+        "sampleValues": [
+          true,
+          false
+        ]
+      }
+    ],
+    "fieldOverlapPercentage": 75
+  },
+  "dataQuality": {
+    "shopeeQuality": {
+      "totalProducts": 2,
+      "validProducts": 2,
+      "missingRequiredFields": 0,
+      "invalidPrices": 0,
+      "missingImages": 0,
+      "qualityScore": 100
+    },
+    "tiktokQuality": {
+      "totalProducts": 2,
+      "validProducts": 2,
+      "missingRequiredFields": 0,
+      "invalidPrices": 0,
+      "missingImages": 0,
+      "tokopediaEnabledCount": 1,
+      "qualityScore": 100
+    },
+    "overallQuality": {
+      "totalProducts": 4,
+      "validProducts": 4,
+      "qualityScore": 100,
+      "recommendations": []
+    }
+  },
+  "recommendations": [
+    "Field overlap (75%) is below 90% target - create field mapping strategy",
+    "Product overlap meets requirements - ready for master schema design"
+  ],
+  "nextSteps": [
+    "Design master product schema based on analysis results",
+    "Implement platform-specific mapping structures",
+    "Create pricing calculation system with platform fees"
+  ]
+}

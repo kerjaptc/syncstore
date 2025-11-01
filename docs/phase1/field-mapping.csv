@@ -1,0 +1,39 @@
+Field Name,Shopee Field,TikTok Shop Field,Data Type,Status,Notes,Transformation Required
+Product ID,item_id,product_id,number/string,common,Shopee uses number; TikTok uses string,Yes - convert to string
+Product Name,item_name,product_name,string,common,Max length differs (120 vs 255 chars),No - use as-is
+Description,description,description,string,common,Max length differs (3000 vs 5000 chars),No - use as-is
+Category,category_id,category_id,number/string,common,Different ID formats and systems,Yes - map to master categories
+Images,image.image_url_list,images[].url,array,common,Different structure complexity,Yes - extract URLs
+Weight,weight,package_weight,number,common,Both in kg,No - use as-is
+Length,dimension.package_length,package_dimensions.length,number,common,Both in cm,No - use as-is
+Width,dimension.package_width,package_dimensions.width,number,common,Both in cm,No - use as-is
+Height,dimension.package_height,package_dimensions.height,number,common,Both in cm,No - use as-is
+Status,item_status,product_status,string,common,Different enum values (NORMAL vs ACTIVE),Yes - normalize status
+Created Date,create_time,create_time,number,common,Both unix timestamps,No - use as-is
+Updated Date,update_time,update_time,number,common,Both unix timestamps,No - use as-is
+Brand,brand.original_brand_name,brand_name,string,common,Different structure,Yes - extract brand name
+Attributes,attribute_list,attributes,array,common,Different structure,Yes - normalize attributes
+SKU,item_sku,N/A,string,shopee_only,Product-level SKU,No - store in platform mapping
+Logistics,logistic_info,N/A,array,shopee_only,Shipping templates,No - store in platform mapping
+Pre-order,pre_order,N/A,object,shopee_only,Pre-order configuration,No - store in platform mapping
+Promotion,promotion_id,N/A,number,shopee_only,Promotion linking,No - store in platform mapping
+Dangerous Goods,item_dangerous,N/A,number,shopee_only,Dangerous goods classification,No - store in platform mapping
+Warranty,complaint_policy,N/A,object,shopee_only,Warranty information,No - store in platform mapping
+Has Variants,has_model,N/A,boolean,shopee_only,Indicates if product has variants,No - store in platform mapping
+Video,N/A,video,object,tiktok_only,Product video information,No - store in platform mapping
+Manufacturer,N/A,manufacturer,object,tiktok_only,Manufacturer details,No - store in platform mapping
+Delivery Options,N/A,delivery_options,array,tiktok_only,Available delivery methods,No - store in platform mapping
+COD Allowed,N/A,is_cod_allowed,boolean,tiktok_only,Cash on delivery flag,No - store in platform mapping
+Size Chart,N/A,size_chart,object,tiktok_only,Size chart information,No - store in platform mapping
+Category Chain,N/A,category_chains,array,tiktok_only,Full category hierarchy,No - store in platform mapping
+Product Codes,N/A,identifier_code,object,tiktok_only,EAN/UPC codes,No - store in platform mapping
+Variant ID,model_id,id,number/string,variant_common,Different types,Yes - convert to string
+Variant SKU,model_sku,seller_sku,string,variant_common,Both strings,No - use as-is
+Variant Price,price,price.amount,number/object,variant_common,TikTok includes currency,Yes - extract amount
+Available Stock,normal_stock,stock_infos[].available_stock,number,variant_common,TikTok supports multi-warehouse,Yes - aggregate stocks
+Reserved Stock,reserved_stock,stock_infos[].reserved_stock,number,variant_common,Similar concept,Yes - aggregate stocks
+Variant Attributes,tier_index,sales_attributes,array,variant_common,Different structure,Yes - normalize variant attributes
+Variant Promotion,promotion_id,N/A,number,variant_shopee_only,Shopee variant promotion,No - store in platform mapping
+Currency,N/A,price.currency,string,variant_tiktok_only,Price currency,No - store in platform mapping
+Warehouse Info,N/A,stock_infos[].warehouse_id,string,variant_tiktok_only,Warehouse identification,No - store in platform mapping
+Identifier Codes,N/A,identifier_code,object,variant_tiktok_only,EAN/UPC for variants,No - store in platform mapping

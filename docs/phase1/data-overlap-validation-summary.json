@@ -1,0 +1,12 @@
+{
+  "validationDate": "2025-11-01T17:27:21.985Z",
+  "requirementsMet": false,
+  "actualOverlap": 0,
+  "requiredOverlap": 90,
+  "validationStatus": "FAIL",
+  "discrepanciesCount": 3,
+  "recommendationsCount": 5,
+  "criticalIssues": 1,
+  "majorIssues": 2,
+  "minorIssues": 0
+}

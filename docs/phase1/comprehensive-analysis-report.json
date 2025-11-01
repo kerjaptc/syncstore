@@ -1,0 +1,947 @@
+{
+  "metadata": {
+    "generatedAt": "2025-11-01T16:55:02.894Z",
+    "analysisVersion": "1.0.0",
+    "reportType": "comprehensive_analysis",
+    "platforms": [
+      "Shopee",
+      "TikTok Shop"
+    ]
+  },
+  "executiveSummary": {
+    "overallAssessment": "READY_FOR_SCHEMA_DESIGN",
+    "keyFindings": [
+      "Field mapping accuracy: 52%",
+      "Data quality score: 100%",
+      "5 fields successfully mapped between platforms",
+      "0 data quality issues identified",
+      "5 structural differences require attention"
+    ],
+    "readinessStatus": {
+      "fieldMapping": "NEEDS_WORK",
+      "dataQuality": "READY",
+      "platformIntegration": "READY"
+    },
+    "criticalIssues": [],
+    "businessImpact": {
+      "schemaDesign": "Analysis provides sufficient data for master schema design",
+      "dataIntegrity": "High data quality enables reliable product synchronization",
+      "platformSync": "Identified differences can be handled through transformation layer"
+    }
+  },
+  "fieldMappingAccuracy": {
+    "totalShopeeFields": 21,
+    "totalTikTokFields": 21,
+    "mappedFields": 5,
+    "similarFields": 6,
+    "unmappedShopeeFields": 10,
+    "unmappedTikTokFields": 10,
+    "mappingAccuracy": 52,
+    "fieldMappings": {
+      "exactMatches": [
+        {
+          "fieldName": "description",
+          "shopeeField": {
+            "dataType": "string",
+            "frequency": 3,
+            "sampleValues": [
+              "High-quality carbon fiber racing frame for 5-inch FPV drones",
+              "High-definition FPV camera with 1200TVL resolution",
+              "High-performance 9-inch propellers for long-range flights"
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "tiktokField": {
+            "dataType": "string",
+            "frequency": 2,
+            "sampleValues": [
+              "Premium carbon racing frame for competitive FPV racing",
+              "Professional-grade FPV camera with superior image quality"
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "matchType": "exact"
+        },
+        {
+          "fieldName": "price",
+          "shopeeField": {
+            "dataType": "integer",
+            "frequency": 3,
+            "sampleValues": [
+              150000,
+              75000,
+              25000
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "tiktokField": {
+            "dataType": "integer",
+            "frequency": 2,
+            "sampleValues": [
+              155000,
+              78000
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "matchType": "exact"
+        },
+        {
+          "fieldName": "images",
+          "shopeeField": {
+            "dataType": "array",
+            "frequency": 3,
+            "sampleValues": [
+              [
+                "frame1.jpg",
+                "frame2.jpg",
+                "frame3.jpg"
+              ],
+              [
+                "cam1.jpg",
+                "cam2.jpg"
+              ],
+              [
+                "prop1.jpg",
+                "prop2.jpg",
+                "prop3.jpg"
+              ]
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "tiktokField": {
+            "dataType": "array",
+            "frequency": 2,
+            "sampleValues": [
+              [
+                {
+                  "url": "frame1.jpg",
+                  "alt": "Front view"
+                },
+                {
+                  "url": "frame2.jpg",
+                  "alt": "Side view"
+                }
+              ],
+              [
+                {
+                  "url": "cam1.jpg",
+                  "alt": "Camera front"
+                },
+                {
+                  "url": "cam2.jpg",
+                  "alt": "Camera back"
+                }
+              ]
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "matchType": "exact"
+        },
+        {
+          "fieldName": "weight",
+          "shopeeField": {
+            "dataType": "number",
+            "frequency": 3,
+            "sampleValues": [
+              0.5,
+              0.1,
+              0.05
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "tiktokField": {
+            "dataType": "number",
+            "frequency": 2,
+            "sampleValues": [
+              0.5,
+              0.1
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "matchType": "exact"
+        },
+        {
+          "fieldName": "category_id",
+          "shopeeField": {
+            "dataType": "string",
+            "frequency": 3,
+            "sampleValues": [
+              "frames",
+              "cameras",
+              "propellers"
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "tiktokField": {
+            "dataType": "string",
+            "frequency": 2,
+            "sampleValues": [
+              "frames",
+              "cameras"
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "matchType": "exact"
+        }
+      ],
+      "similarMatches": [
+        {
+          "shopeeField": "item_id",
+          "tiktokField": "product_id",
+          "shopeeData": {
+            "dataType": "string",
+            "frequency": 3,
+            "sampleValues": [
+              "shopee_1",
+              "shopee_2",
+              "shopee_3"
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "tiktokData": {
+            "dataType": "string",
+            "frequency": 2,
+            "sampleValues": [
+              "tiktok_1",
+              "tiktok_2"
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "matchType": "semantic",
+          "similarity": 60
+        },
+        {
+          "shopeeField": "item_name",
+          "tiktokField": "product_name",
+          "shopeeData": {
+            "dataType": "string",
+            "frequency": 3,
+            "sampleValues": [
+              "Racing Frame 5 Inch Carbon Fiber",
+              "FPV Camera 1200TVL HD",
+              "Propeller 9 Inch High Performance"
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "tiktokData": {
+            "dataType": "string",
+            "frequency": 2,
+            "sampleValues": [
+              "Racing Frame 5 Inch Carbon",
+              "FPV Camera 1200TVL Professional"
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "matchType": "semantic",
+          "similarity": 70
+        },
+        {
+          "shopeeField": "stock",
+          "tiktokField": "inventory",
+          "shopeeData": {
+            "dataType": "integer",
+            "frequency": 3,
+            "sampleValues": [
+              25,
+              50,
+              100
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "tiktokData": {
+            "dataType": "integer",
+            "frequency": 2,
+            "sampleValues": [
+              20,
+              45
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "matchType": "semantic",
+          "similarity": 60
+        },
+        {
+          "shopeeField": "brand",
+          "tiktokField": "brand_name",
+          "shopeeData": {
+            "dataType": "string",
+            "frequency": 3,
+            "sampleValues": [
+              "Motekar FPV",
+              "RunCam",
+              "HQProp"
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "tiktokData": {
+            "dataType": "string",
+            "frequency": 2,
+            "sampleValues": [
+              "Motekar FPV",
+              "RunCam"
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "matchType": "semantic",
+          "similarity": 80
+        },
+        {
+          "shopeeField": "created_at",
+          "tiktokField": "created_time",
+          "shopeeData": {
+            "dataType": "string",
+            "frequency": 3,
+            "sampleValues": [
+              "2024-01-15T10:30:00Z",
+              "2024-02-10T09:15:00Z",
+              "2024-01-20T11:00:00Z"
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "tiktokData": {
+            "dataType": "integer",
+            "frequency": 2,
+            "sampleValues": [
+              1705320600,
+              1707292500
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "matchType": "semantic",
+          "similarity": 20
+        },
+        {
+          "shopeeField": "updated_at",
+          "tiktokField": "update_time",
+          "shopeeData": {
+            "dataType": "string",
+            "frequency": 3,
+            "sampleValues": [
+              "2024-10-20T14:22:00Z",
+              "2024-10-18T16:45:00Z",
+              "2024-10-15T13:30:00Z"
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "tiktokData": {
+            "dataType": "integer",
+            "frequency": 2,
+            "sampleValues": [
+              1729434120,
+              1729261500
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "matchType": "semantic",
+          "similarity": 20
+        }
+      ],
+      "shopeeOnly": [
+        {
+          "fieldName": "dimensions",
+          "data": {
+            "dataType": "object",
+            "frequency": 3,
+            "sampleValues": [
+              {
+                "length": 220,
+                "width": 220,
+                "height": 30
+              },
+              {
+                "length": 19,
+                "width": 19,
+                "height": 18
+              },
+              {
+                "length": 230,
+                "width": 230,
+                "height": 15
+              }
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "Shopee"
+        },
+        {
+          "fieldName": "dimensions.length",
+          "data": {
+            "dataType": "integer",
+            "frequency": 3,
+            "sampleValues": [
+              220,
+              19,
+              230
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "Shopee"
+        },
+        {
+          "fieldName": "dimensions.width",
+          "data": {
+            "dataType": "integer",
+            "frequency": 3,
+            "sampleValues": [
+              220,
+              19,
+              230
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "Shopee"
+        },
+        {
+          "fieldName": "dimensions.height",
+          "data": {
+            "dataType": "integer",
+            "frequency": 3,
+            "sampleValues": [
+              30,
+              18,
+              15
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "Shopee"
+        },
+        {
+          "fieldName": "material",
+          "data": {
+            "dataType": "string",
+            "frequency": 1,
+            "sampleValues": [
+              "Carbon Fiber"
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "Shopee"
+        },
+        {
+          "fieldName": "compatibility",
+          "data": {
+            "dataType": "array",
+            "frequency": 1,
+            "sampleValues": [
+              [
+                "5inch",
+                "racing"
+              ]
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "Shopee"
+        },
+        {
+          "fieldName": "resolution",
+          "data": {
+            "dataType": "string",
+            "frequency": 1,
+            "sampleValues": [
+              "1200TVL"
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "Shopee"
+        },
+        {
+          "fieldName": "lens_size",
+          "data": {
+            "dataType": "string",
+            "frequency": 1,
+            "sampleValues": [
+              "2.1mm"
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "Shopee"
+        },
+        {
+          "fieldName": "pitch",
+          "data": {
+            "dataType": "string",
+            "frequency": 1,
+            "sampleValues": [
+              "4.5"
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "Shopee"
+        },
+        {
+          "fieldName": "blade_count",
+          "data": {
+            "dataType": "integer",
+            "frequency": 1,
+            "sampleValues": [
+              2
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "Shopee"
+        }
+      ],
+      "tiktokOnly": [
+        {
+          "fieldName": "package_dimensions",
+          "data": {
+            "dataType": "object",
+            "frequency": 2,
+            "sampleValues": [
+              {
+                "length": 25,
+                "width": 25,
+                "height": 5
+              },
+              {
+                "length": 10,
+                "width": 10,
+                "height": 8
+              }
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "TikTok Shop"
+        },
+        {
+          "fieldName": "package_dimensions.length",
+          "data": {
+            "dataType": "integer",
+            "frequency": 2,
+            "sampleValues": [
+              25,
+              10
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "TikTok Shop"
+        },
+        {
+          "fieldName": "package_dimensions.width",
+          "data": {
+            "dataType": "integer",
+            "frequency": 2,
+            "sampleValues": [
+              25,
+              10
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "TikTok Shop"
+        },
+        {
+          "fieldName": "package_dimensions.height",
+          "data": {
+            "dataType": "integer",
+            "frequency": 2,
+            "sampleValues": [
+              5,
+              8
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "TikTok Shop"
+        },
+        {
+          "fieldName": "include_tokopedia",
+          "data": {
+            "dataType": "boolean",
+            "frequency": 2,
+            "sampleValues": [
+              true,
+              false
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "TikTok Shop"
+        },
+        {
+          "fieldName": "tokopedia_category",
+          "data": {
+            "dataType": "string",
+            "frequency": 1,
+            "sampleValues": [
+              "drone-parts"
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "TikTok Shop"
+        },
+        {
+          "fieldName": "shipping_weight",
+          "data": {
+            "dataType": "number",
+            "frequency": 2,
+            "sampleValues": [
+              0.6,
+              0.15
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "TikTok Shop"
+        },
+        {
+          "fieldName": "video_specs",
+          "data": {
+            "dataType": "object",
+            "frequency": 1,
+            "sampleValues": [
+              {
+                "resolution": "1200TVL",
+                "format": "NTSC/PAL"
+              }
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "TikTok Shop"
+        },
+        {
+          "fieldName": "video_specs.resolution",
+          "data": {
+            "dataType": "string",
+            "frequency": 1,
+            "sampleValues": [
+              "1200TVL"
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "TikTok Shop"
+        },
+        {
+          "fieldName": "video_specs.format",
+          "data": {
+            "dataType": "string",
+            "frequency": 1,
+            "sampleValues": [
+              "NTSC/PAL"
+            ],
+            "nullCount": 0,
+            "uniqueValues": {}
+          },
+          "platform": "TikTok Shop"
+        }
+      ]
+    },
+    "recommendations": [
+      {
+        "priority": "high",
+        "category": "field_mapping",
+        "title": "Improve Field Mapping Coverage",
+        "description": "Current mapping accuracy is 52%, below 90% target",
+        "action": "Review unmapped fields and create semantic mappings where possible"
+      },
+      {
+        "priority": "medium",
+        "category": "shopee_fields",
+        "title": "Handle Shopee-Only Fields",
+        "description": "10 fields exist only in Shopee",
+        "action": "Determine if these fields should be preserved in master schema"
+      },
+      {
+        "priority": "medium",
+        "category": "tiktok_fields",
+        "title": "Handle TikTok-Only Fields",
+        "description": "10 fields exist only in TikTok Shop",
+        "action": "Evaluate TikTok-specific fields for master schema inclusion"
+      }
+    ]
+  },
+  "dataQuality": {
+    "shopeeQuality": {
+      "platform": "Shopee",
+      "totalProducts": 3,
+      "validProducts": 3,
+      "qualityScore": 100,
+      "issues": {
+        "missingTitles": 0,
+        "missingPrices": 0,
+        "invalidPrices": 0,
+        "missingImages": 0,
+        "missingDescriptions": 0,
+        "missingCategories": 0,
+        "missingBrands": 0,
+        "inconsistentData": 0
+      },
+      "qualityMetrics": {
+        "titleCompleteness": 100,
+        "priceValidity": 100,
+        "imageAvailability": 100,
+        "descriptionQuality": 100,
+        "categoryConsistency": 100,
+        "brandConsistency": 100
+      }
+    },
+    "tiktokQuality": {
+      "platform": "TikTok Shop",
+      "totalProducts": 2,
+      "validProducts": 2,
+      "qualityScore": 100,
+      "issues": {
+        "missingTitles": 0,
+        "missingPrices": 0,
+        "invalidPrices": 0,
+        "missingImages": 0,
+        "missingDescriptions": 0,
+        "missingCategories": 0,
+        "missingBrands": 0,
+        "inconsistentData": 0
+      },
+      "qualityMetrics": {
+        "titleCompleteness": 100,
+        "priceValidity": 100,
+        "imageAvailability": 100,
+        "descriptionQuality": 100,
+        "categoryConsistency": 100,
+        "brandConsistency": 100
+      }
+    },
+    "overallQuality": {
+      "totalProducts": 5,
+      "totalValidProducts": 5,
+      "overallQualityScore": 100,
+      "platformComparison": {
+        "shopeeScore": 100,
+        "tiktokScore": 100,
+        "scoreDifference": 0
+      }
+    },
+    "qualityIssues": [],
+    "recommendations": []
+  },
+  "platformDifferences": {
+    "structuralDifferences": {
+      "idFieldDifference": {
+        "shopee": "item_id (string)",
+        "tiktok": "product_id (string)",
+        "impact": "Requires field mapping in master schema"
+      },
+      "nameFieldDifference": {
+        "shopee": "item_name (string)",
+        "tiktok": "product_name (string)",
+        "impact": "Semantic mapping needed for title field"
+      },
+      "imageStructureDifference": {
+        "shopee": "images (array of strings)",
+        "tiktok": "images (array of objects with url/alt)",
+        "impact": "Requires data transformation for unified image handling"
+      },
+      "timestampDifference": {
+        "shopee": "created_at/updated_at (ISO string)",
+        "tiktok": "created_time/update_time (Unix timestamp)",
+        "impact": "Date format standardization required"
+      },
+      "inventoryFieldDifference": {
+        "shopee": "stock (integer)",
+        "tiktok": "inventory (integer)",
+        "impact": "Field name mapping required"
+      }
+    },
+    "dataFormatDifferences": {
+      "dateFormats": {
+        "shopee": "ISO 8601 strings (2024-01-15T10:30:00Z)",
+        "tiktok": "Unix timestamps (1705320600)",
+        "recommendation": "Standardize to ISO 8601 in master schema"
+      },
+      "imageFormats": {
+        "shopee": "Simple string URLs",
+        "tiktok": "Object with url and alt text",
+        "recommendation": "Use TikTok format for better accessibility"
+      },
+      "dimensionFormats": {
+        "shopee": "Nested object with length/width/height",
+        "tiktok": "package_dimensions object",
+        "recommendation": "Standardize dimension structure"
+      },
+      "brandFormats": {
+        "shopee": "brand (string)",
+        "tiktok": "brand_name (string)",
+        "recommendation": "Use brand_name for consistency"
+      }
+    },
+    "businessLogicDifferences": {
+      "tokopediaIntegration": {
+        "description": "TikTok Shop has include_tokopedia flag for cross-platform sync",
+        "impact": "Master schema must track Tokopedia integration status",
+        "recommendation": "Add tokopedia_enabled field to master schema"
+      },
+      "pricingStrategy": {
+        "description": "Different platform fee structures affect final pricing",
+        "shopee": "Typically 15% platform fee",
+        "tiktok": "Typically 20% platform fee + Tokopedia considerations",
+        "recommendation": "Implement configurable platform fee system"
+      },
+      "categoryMapping": {
+        "description": "Different category ID systems between platforms",
+        "impact": "Category synchronization requires mapping table",
+        "recommendation": "Create category mapping service"
+      },
+      "inventoryTracking": {
+        "description": "Different inventory field names and tracking methods",
+        "impact": "Unified inventory management needed",
+        "recommendation": "Implement centralized inventory tracking"
+      }
+    },
+    "integrationChallenges": [
+      {
+        "challenge": "Field Name Inconsistencies",
+        "description": "Different field names for same data (item_id vs product_id)",
+        "severity": "medium",
+        "solution": "Create comprehensive field mapping configuration"
+      },
+      {
+        "challenge": "Data Format Variations",
+        "description": "Different formats for dates, images, and dimensions",
+        "severity": "medium",
+        "solution": "Implement data transformation layer"
+      },
+      {
+        "challenge": "Platform-Specific Features",
+        "description": "TikTok Tokopedia integration not available in Shopee",
+        "severity": "low",
+        "solution": "Design flexible schema to accommodate platform differences"
+      },
+      {
+        "challenge": "Pricing Complexity",
+        "description": "Different fee structures and pricing strategies",
+        "severity": "high",
+        "solution": "Implement configurable pricing calculation system"
+      },
+      {
+        "challenge": "Image Handling",
+        "description": "Different image data structures and metadata",
+        "severity": "medium",
+        "solution": "Standardize image object structure with optional metadata"
+      }
+    ],
+    "recommendations": [
+      {
+        "priority": "high",
+        "category": "schema_design",
+        "title": "Design Flexible Master Schema",
+        "description": "Create schema that accommodates both platform structures",
+        "action": "Use JSON fields for platform-specific data while maintaining common structure"
+      },
+      {
+        "priority": "high",
+        "category": "data_transformation",
+        "title": "Implement Data Transformation Layer",
+        "description": "Handle format differences between platforms",
+        "action": "Create transformation functions for dates, images, and other format differences"
+      },
+      {
+        "priority": "medium",
+        "category": "pricing_strategy",
+        "title": "Implement Dynamic Pricing System",
+        "description": "Handle different platform fee structures",
+        "action": "Create configurable pricing rules for each platform"
+      },
+      {
+        "priority": "medium",
+        "category": "tokopedia_integration",
+        "title": "Plan Tokopedia Integration Strategy",
+        "description": "TikTok Shop offers Tokopedia cross-platform sync",
+        "action": "Design master schema to track and manage Tokopedia integration status"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "priority": "high",
+      "category": "field_mapping",
+      "title": "Improve Field Mapping Coverage",
+      "description": "Current mapping accuracy is 52%, below 90% target",
+      "action": "Review unmapped fields and create semantic mappings where possible"
+    },
+    {
+      "priority": "high",
+      "category": "schema_design",
+      "title": "Design Flexible Master Schema",
+      "description": "Create schema that accommodates both platform structures",
+      "action": "Use JSON fields for platform-specific data while maintaining common structure"
+    },
+    {
+      "priority": "high",
+      "category": "data_transformation",
+      "title": "Implement Data Transformation Layer",
+      "description": "Handle format differences between platforms",
+      "action": "Create transformation functions for dates, images, and other format differences"
+    },
+    {
+      "priority": "medium",
+      "category": "shopee_fields",
+      "title": "Handle Shopee-Only Fields",
+      "description": "10 fields exist only in Shopee",
+      "action": "Determine if these fields should be preserved in master schema"
+    },
+    {
+      "priority": "medium",
+      "category": "tiktok_fields",
+      "title": "Handle TikTok-Only Fields",
+      "description": "10 fields exist only in TikTok Shop",
+      "action": "Evaluate TikTok-specific fields for master schema inclusion"
+    },
+    {
+      "priority": "medium",
+      "category": "pricing_strategy",
+      "title": "Implement Dynamic Pricing System",
+      "description": "Handle different platform fee structures",
+      "action": "Create configurable pricing rules for each platform"
+    },
+    {
+      "priority": "medium",
+      "category": "tokopedia_integration",
+      "title": "Plan Tokopedia Integration Strategy",
+      "description": "TikTok Shop offers Tokopedia cross-platform sync",
+      "action": "Design master schema to track and manage Tokopedia integration status"
+    }
+  ],
+  "nextSteps": [
+    "Review and improve field mapping coverage",
+    "Design master product schema incorporating field mapping analysis",
+    "Implement data transformation layer for platform differences",
+    "Create configurable pricing calculation system",
+    "Develop platform-specific mapping structures",
+    "Implement data validation and quality assurance processes"
+  ]
+}

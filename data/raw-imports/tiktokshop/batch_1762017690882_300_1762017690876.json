@@ -1,0 +1,5568 @@
+{
+  "batchId": "batch_1762017690882_300",
+  "platform": "tiktokshop",
+  "products": [
+    {
+      "product_id": "TTS001000300",
+      "product_name": "Racing Frame 5 Inch Carbon - Carbon Fiber 3 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000001",
+      "brand": "Motekar FPV",
+      "price": 121371,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-301-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-301-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-301-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-301-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1759870318466.6973,
+      "updated_time": 1761765652933.1743,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "3 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000301-RED",
+          "seller_sku": "FRAME-3Inch-RED-TTS",
+          "price": {
+            "amount": 216368,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 14,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000301-BLUE",
+          "seller_sku": "FRAME-3Inch-BLUE-TTS",
+          "price": {
+            "amount": 408036,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 35,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000301",
+      "product_name": "Propeller 9 Inch High Performance - Aluminum 4 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000002",
+      "brand": "Motekar FPV",
+      "price": 75661,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-302-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-302-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-302-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-302-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1761292382478.5244,
+      "updated_time": 1761525082257.5674,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Aluminum"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "4 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000302-RED",
+          "seller_sku": "FRAME-4Inch-RED-TTS",
+          "price": {
+            "amount": 172237,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 35,
+              "reserved_stock": 3
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000302-BLUE",
+          "seller_sku": "FRAME-4Inch-BLUE-TTS",
+          "price": {
+            "amount": 88566,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 11,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000302",
+      "product_name": "FPV Camera 1200TVL - Plastic 5 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000003",
+      "brand": "Motekar FPV",
+      "price": 200685,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-303-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-303-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-303-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-303-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1759947035782.7527,
+      "updated_time": 1761993715441.5083,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Plastic"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000303-RED",
+          "seller_sku": "FRAME-5Inch-RED-TTS",
+          "price": {
+            "amount": 446170,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 13,
+              "reserved_stock": 1
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000303-BLUE",
+          "seller_sku": "FRAME-5Inch-BLUE-TTS",
+          "price": {
+            "amount": 369530,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 29,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000303",
+      "product_name": "ESC 4in1 35A - Titanium 6 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000004",
+      "brand": "Motekar FPV",
+      "price": 170301,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-304-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-304-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-304-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-304-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1759811469167.2517,
+      "updated_time": 1761439310813.7751,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Titanium"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "6 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000304-RED",
+          "seller_sku": "FRAME-6Inch-RED-TTS",
+          "price": {
+            "amount": 259531,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 28,
+              "reserved_stock": 1
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000304-BLUE",
+          "seller_sku": "FRAME-6Inch-BLUE-TTS",
+          "price": {
+            "amount": 103429,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 28,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000304",
+      "product_name": "Flight Controller F4 - Carbon Fiber 7 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000005",
+      "brand": "Motekar FPV",
+      "price": 433813,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-305-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-305-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-305-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-305-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760569064217.9045,
+      "updated_time": 1761868495521.8557,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "7 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000305-RED",
+          "seller_sku": "FRAME-7Inch-RED-TTS",
+          "price": {
+            "amount": 385708,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 34,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000305-BLUE",
+          "seller_sku": "FRAME-7Inch-BLUE-TTS",
+          "price": {
+            "amount": 446874,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 1,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000305",
+      "product_name": "VTX 5.8GHz 800mW - Aluminum 9 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000001",
+      "brand": "Motekar FPV",
+      "price": 226477,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-306-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-306-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-306-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-306-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760249940740.3235,
+      "updated_time": 1761537393267.0977,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Aluminum"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "9 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000306-RED",
+          "seller_sku": "FRAME-9Inch-RED-TTS",
+          "price": {
+            "amount": 341500,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 42,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000306-BLUE",
+          "seller_sku": "FRAME-9Inch-BLUE-TTS",
+          "price": {
+            "amount": 255654,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 46,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000306",
+      "product_name": "Receiver ELRS 2.4GHz - Plastic 3 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000002",
+      "brand": "Motekar FPV",
+      "price": 265475,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-307-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-307-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-307-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-307-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1761987004701.4436,
+      "updated_time": 1761441475004.8887,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Plastic"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "3 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000307-RED",
+          "seller_sku": "FRAME-3Inch-RED-TTS",
+          "price": {
+            "amount": 213671,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 19,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000307-BLUE",
+          "seller_sku": "FRAME-3Inch-BLUE-TTS",
+          "price": {
+            "amount": 323831,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 30,
+              "reserved_stock": 3
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000307",
+      "product_name": "Motor 2207 2750KV - Titanium 4 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000003",
+      "brand": "Motekar FPV",
+      "price": 131881,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-308-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-308-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-308-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-308-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1761998861024.247,
+      "updated_time": 1761595648678.9165,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Titanium"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "4 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000308-RED",
+          "seller_sku": "FRAME-4Inch-RED-TTS",
+          "price": {
+            "amount": 529132,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 45,
+              "reserved_stock": 1
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000308-BLUE",
+          "seller_sku": "FRAME-4Inch-BLUE-TTS",
+          "price": {
+            "amount": 382768,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 21,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000308",
+      "product_name": "Battery 4S 1500mAh - Carbon Fiber 5 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000004",
+      "brand": "Motekar FPV",
+      "price": 208372,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-309-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-309-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-309-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-309-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1759491092332.5999,
+      "updated_time": 1761531259465.8145,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000309-RED",
+          "seller_sku": "FRAME-5Inch-RED-TTS",
+          "price": {
+            "amount": 239125,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 31,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000309-BLUE",
+          "seller_sku": "FRAME-5Inch-BLUE-TTS",
+          "price": {
+            "amount": 494553,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 46,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000309",
+      "product_name": "Antenna Pagoda 5.8GHz - Aluminum 6 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000005",
+      "brand": "Motekar FPV",
+      "price": 318599,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-310-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-310-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-310-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-310-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760132438949.3804,
+      "updated_time": 1761669545727.6067,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Aluminum"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "6 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000310-RED",
+          "seller_sku": "FRAME-6Inch-RED-TTS",
+          "price": {
+            "amount": 329105,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 24,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000310-BLUE",
+          "seller_sku": "FRAME-6Inch-BLUE-TTS",
+          "price": {
+            "amount": 212616,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 20,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000310",
+      "product_name": "Racing Frame 5 Inch Carbon - Plastic 7 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000001",
+      "brand": "Motekar FPV",
+      "price": 463297,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-311-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-311-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-311-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-311-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760786986049.9558,
+      "updated_time": 1761893026706.973,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Plastic"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "7 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000311-RED",
+          "seller_sku": "FRAME-7Inch-RED-TTS",
+          "price": {
+            "amount": 385795,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 1,
+              "reserved_stock": 3
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000311-BLUE",
+          "seller_sku": "FRAME-7Inch-BLUE-TTS",
+          "price": {
+            "amount": 352856,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 14,
+              "reserved_stock": 1
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000311",
+      "product_name": "Propeller 9 Inch High Performance - Titanium 9 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000002",
+      "brand": "Motekar FPV",
+      "price": 52547,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-312-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-312-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-312-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-312-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760723601621.9604,
+      "updated_time": 1761542799124.719,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Titanium"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "9 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000312-RED",
+          "seller_sku": "FRAME-9Inch-RED-TTS",
+          "price": {
+            "amount": 150780,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 14,
+              "reserved_stock": 3
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000312-BLUE",
+          "seller_sku": "FRAME-9Inch-BLUE-TTS",
+          "price": {
+            "amount": 114597,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 49,
+              "reserved_stock": 1
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000312",
+      "product_name": "FPV Camera 1200TVL - Carbon Fiber 3 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000003",
+      "brand": "Motekar FPV",
+      "price": 465253,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-313-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-313-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-313-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-313-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1759981895007.1323,
+      "updated_time": 1761700838760.4233,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "3 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000313-RED",
+          "seller_sku": "FRAME-3Inch-RED-TTS",
+          "price": {
+            "amount": 158549,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 49,
+              "reserved_stock": 1
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000313-BLUE",
+          "seller_sku": "FRAME-3Inch-BLUE-TTS",
+          "price": {
+            "amount": 524228,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 5,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000313",
+      "product_name": "ESC 4in1 35A - Aluminum 4 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000004",
+      "brand": "Motekar FPV",
+      "price": 353036,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-314-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-314-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-314-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-314-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760119168721.034,
+      "updated_time": 1761422110028.845,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Aluminum"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "4 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000314-RED",
+          "seller_sku": "FRAME-4Inch-RED-TTS",
+          "price": {
+            "amount": 472340,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 40,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000314-BLUE",
+          "seller_sku": "FRAME-4Inch-BLUE-TTS",
+          "price": {
+            "amount": 236199,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 25,
+              "reserved_stock": 3
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000314",
+      "product_name": "Flight Controller F4 - Plastic 5 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000005",
+      "brand": "Motekar FPV",
+      "price": 55563,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-315-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-315-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-315-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-315-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760398960769,
+      "updated_time": 1761595269402.5789,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Plastic"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000315-RED",
+          "seller_sku": "FRAME-5Inch-RED-TTS",
+          "price": {
+            "amount": 113839,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 16,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000315-BLUE",
+          "seller_sku": "FRAME-5Inch-BLUE-TTS",
+          "price": {
+            "amount": 416445,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 30,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000315",
+      "product_name": "VTX 5.8GHz 800mW - Titanium 6 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000001",
+      "brand": "Motekar FPV",
+      "price": 135392,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-316-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-316-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-316-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-316-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1759448541450.258,
+      "updated_time": 1761873138369.1274,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Titanium"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "6 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000316-RED",
+          "seller_sku": "FRAME-6Inch-RED-TTS",
+          "price": {
+            "amount": 73619,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 48,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000316-BLUE",
+          "seller_sku": "FRAME-6Inch-BLUE-TTS",
+          "price": {
+            "amount": 382962,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 26,
+              "reserved_stock": 1
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000316",
+      "product_name": "Receiver ELRS 2.4GHz - Carbon Fiber 7 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000002",
+      "brand": "Motekar FPV",
+      "price": 343428,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-317-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-317-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-317-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-317-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760474866698.6638,
+      "updated_time": 1761745777169.99,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "7 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000317-RED",
+          "seller_sku": "FRAME-7Inch-RED-TTS",
+          "price": {
+            "amount": 524463,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 40,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000317-BLUE",
+          "seller_sku": "FRAME-7Inch-BLUE-TTS",
+          "price": {
+            "amount": 301462,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 40,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000317",
+      "product_name": "Motor 2207 2750KV - Aluminum 9 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000003",
+      "brand": "Motekar FPV",
+      "price": 151789,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-318-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-318-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-318-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-318-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1761642398152.6536,
+      "updated_time": 1761721430115.4849,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Aluminum"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "9 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000318-RED",
+          "seller_sku": "FRAME-9Inch-RED-TTS",
+          "price": {
+            "amount": 328353,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 17,
+              "reserved_stock": 3
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000318-BLUE",
+          "seller_sku": "FRAME-9Inch-BLUE-TTS",
+          "price": {
+            "amount": 296285,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 37,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000318",
+      "product_name": "Battery 4S 1500mAh - Plastic 3 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000004",
+      "brand": "Motekar FPV",
+      "price": 498703,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-319-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-319-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-319-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-319-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1759569547750.2085,
+      "updated_time": 1761922675215.7197,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Plastic"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "3 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000319-RED",
+          "seller_sku": "FRAME-3Inch-RED-TTS",
+          "price": {
+            "amount": 349838,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 5,
+              "reserved_stock": 1
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000319-BLUE",
+          "seller_sku": "FRAME-3Inch-BLUE-TTS",
+          "price": {
+            "amount": 55912,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 45,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000319",
+      "product_name": "Antenna Pagoda 5.8GHz - Titanium 4 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000005",
+      "brand": "Motekar FPV",
+      "price": 209261,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-320-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-320-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-320-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-320-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1761931938969.8245,
+      "updated_time": 1761521666486.188,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Titanium"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "4 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000320-RED",
+          "seller_sku": "FRAME-4Inch-RED-TTS",
+          "price": {
+            "amount": 413772,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 1,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000320-BLUE",
+          "seller_sku": "FRAME-4Inch-BLUE-TTS",
+          "price": {
+            "amount": 516540,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 28,
+              "reserved_stock": 3
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000320",
+      "product_name": "Racing Frame 5 Inch Carbon - Carbon Fiber 5 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000001",
+      "brand": "Motekar FPV",
+      "price": 117044,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-321-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-321-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-321-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-321-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760476632901.25,
+      "updated_time": 1761642573839.5464,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000321-RED",
+          "seller_sku": "FRAME-5Inch-RED-TTS",
+          "price": {
+            "amount": 210355,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 24,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000321-BLUE",
+          "seller_sku": "FRAME-5Inch-BLUE-TTS",
+          "price": {
+            "amount": 51154,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 50,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000321",
+      "product_name": "Propeller 9 Inch High Performance - Aluminum 6 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000002",
+      "brand": "Motekar FPV",
+      "price": 477886,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-322-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-322-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-322-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-322-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760207531251.209,
+      "updated_time": 1761950202275.6206,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Aluminum"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "6 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000322-RED",
+          "seller_sku": "FRAME-6Inch-RED-TTS",
+          "price": {
+            "amount": 278011,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 6,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000322-BLUE",
+          "seller_sku": "FRAME-6Inch-BLUE-TTS",
+          "price": {
+            "amount": 207255,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 8,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000322",
+      "product_name": "FPV Camera 1200TVL - Plastic 7 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000003",
+      "brand": "Motekar FPV",
+      "price": 100209,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-323-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-323-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-323-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-323-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760130940691.406,
+      "updated_time": 1761450002174.4617,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Plastic"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "7 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000323-RED",
+          "seller_sku": "FRAME-7Inch-RED-TTS",
+          "price": {
+            "amount": 150324,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 41,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000323-BLUE",
+          "seller_sku": "FRAME-7Inch-BLUE-TTS",
+          "price": {
+            "amount": 537694,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 7,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000323",
+      "product_name": "ESC 4in1 35A - Titanium 9 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000004",
+      "brand": "Motekar FPV",
+      "price": 280831,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-324-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-324-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-324-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-324-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760445607279.8252,
+      "updated_time": 1761620377952.5127,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Titanium"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "9 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000324-RED",
+          "seller_sku": "FRAME-9Inch-RED-TTS",
+          "price": {
+            "amount": 135583,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 38,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000324-BLUE",
+          "seller_sku": "FRAME-9Inch-BLUE-TTS",
+          "price": {
+            "amount": 535231,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 36,
+              "reserved_stock": 1
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000324",
+      "product_name": "Flight Controller F4 - Carbon Fiber 3 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000005",
+      "brand": "Motekar FPV",
+      "price": 122728,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-325-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-325-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-325-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-325-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1761789754030.5906,
+      "updated_time": 1761517533744.6492,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "3 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000325-RED",
+          "seller_sku": "FRAME-3Inch-RED-TTS",
+          "price": {
+            "amount": 547002,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 28,
+              "reserved_stock": 1
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000325-BLUE",
+          "seller_sku": "FRAME-3Inch-BLUE-TTS",
+          "price": {
+            "amount": 539352,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 15,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000325",
+      "product_name": "VTX 5.8GHz 800mW - Aluminum 4 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000001",
+      "brand": "Motekar FPV",
+      "price": 196071,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-326-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-326-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-326-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-326-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1761136470974.1387,
+      "updated_time": 1761668381858.4707,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Aluminum"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "4 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000326-RED",
+          "seller_sku": "FRAME-4Inch-RED-TTS",
+          "price": {
+            "amount": 65595,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 43,
+              "reserved_stock": 1
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000326-BLUE",
+          "seller_sku": "FRAME-4Inch-BLUE-TTS",
+          "price": {
+            "amount": 516250,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 45,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000326",
+      "product_name": "Receiver ELRS 2.4GHz - Plastic 5 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000002",
+      "brand": "Motekar FPV",
+      "price": 457373,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-327-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-327-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-327-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-327-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1759432792088.3127,
+      "updated_time": 1761873110239.7947,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Plastic"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000327-RED",
+          "seller_sku": "FRAME-5Inch-RED-TTS",
+          "price": {
+            "amount": 184037,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 16,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000327-BLUE",
+          "seller_sku": "FRAME-5Inch-BLUE-TTS",
+          "price": {
+            "amount": 357450,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 49,
+              "reserved_stock": 3
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000327",
+      "product_name": "Motor 2207 2750KV - Titanium 6 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000003",
+      "brand": "Motekar FPV",
+      "price": 74927,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-328-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-328-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-328-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-328-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1762008955537.1372,
+      "updated_time": 1761552982916.1624,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Titanium"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "6 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000328-RED",
+          "seller_sku": "FRAME-6Inch-RED-TTS",
+          "price": {
+            "amount": 233876,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 26,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000328-BLUE",
+          "seller_sku": "FRAME-6Inch-BLUE-TTS",
+          "price": {
+            "amount": 330456,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 1,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000328",
+      "product_name": "Battery 4S 1500mAh - Carbon Fiber 7 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000004",
+      "brand": "Motekar FPV",
+      "price": 356685,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-329-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-329-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-329-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-329-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1762015755761.4673,
+      "updated_time": 1761922046849.4895,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "7 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000329-RED",
+          "seller_sku": "FRAME-7Inch-RED-TTS",
+          "price": {
+            "amount": 385276,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 17,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000329-BLUE",
+          "seller_sku": "FRAME-7Inch-BLUE-TTS",
+          "price": {
+            "amount": 483956,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 32,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000329",
+      "product_name": "Antenna Pagoda 5.8GHz - Aluminum 9 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000005",
+      "brand": "Motekar FPV",
+      "price": 57843,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-330-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-330-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-330-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-330-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1759739868047.8572,
+      "updated_time": 1761801862157.2446,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Aluminum"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "9 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000330-RED",
+          "seller_sku": "FRAME-9Inch-RED-TTS",
+          "price": {
+            "amount": 380327,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 27,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000330-BLUE",
+          "seller_sku": "FRAME-9Inch-BLUE-TTS",
+          "price": {
+            "amount": 92741,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 19,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000330",
+      "product_name": "Racing Frame 5 Inch Carbon - Plastic 3 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000001",
+      "brand": "Motekar FPV",
+      "price": 300038,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-331-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-331-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-331-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-331-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760145538852.7087,
+      "updated_time": 1761424334540.7283,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Plastic"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "3 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000331-RED",
+          "seller_sku": "FRAME-3Inch-RED-TTS",
+          "price": {
+            "amount": 301441,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 30,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000331-BLUE",
+          "seller_sku": "FRAME-3Inch-BLUE-TTS",
+          "price": {
+            "amount": 246745,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 29,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000331",
+      "product_name": "Propeller 9 Inch High Performance - Titanium 4 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000002",
+      "brand": "Motekar FPV",
+      "price": 134683,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-332-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-332-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-332-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-332-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1761323083184.2273,
+      "updated_time": 1761449084708.8896,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Titanium"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "4 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000332-RED",
+          "seller_sku": "FRAME-4Inch-RED-TTS",
+          "price": {
+            "amount": 191839,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 25,
+              "reserved_stock": 3
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000332-BLUE",
+          "seller_sku": "FRAME-4Inch-BLUE-TTS",
+          "price": {
+            "amount": 293273,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 25,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000332",
+      "product_name": "FPV Camera 1200TVL - Carbon Fiber 5 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000003",
+      "brand": "Motekar FPV",
+      "price": 79569,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-333-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-333-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-333-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-333-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1759458071182.924,
+      "updated_time": 1761792365803.7512,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000333-RED",
+          "seller_sku": "FRAME-5Inch-RED-TTS",
+          "price": {
+            "amount": 416497,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 9,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000333-BLUE",
+          "seller_sku": "FRAME-5Inch-BLUE-TTS",
+          "price": {
+            "amount": 312420,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 40,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000333",
+      "product_name": "ESC 4in1 35A - Aluminum 6 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000004",
+      "brand": "Motekar FPV",
+      "price": 488739,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-334-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-334-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-334-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-334-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760367047550.9207,
+      "updated_time": 1761823048498.861,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Aluminum"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "6 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000334-RED",
+          "seller_sku": "FRAME-6Inch-RED-TTS",
+          "price": {
+            "amount": 398619,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 25,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000334-BLUE",
+          "seller_sku": "FRAME-6Inch-BLUE-TTS",
+          "price": {
+            "amount": 539506,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 2,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000334",
+      "product_name": "Flight Controller F4 - Plastic 7 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000005",
+      "brand": "Motekar FPV",
+      "price": 229612,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-335-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-335-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-335-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-335-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1759636267758.4363,
+      "updated_time": 1761589951273.8628,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Plastic"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "7 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000335-RED",
+          "seller_sku": "FRAME-7Inch-RED-TTS",
+          "price": {
+            "amount": 285020,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 15,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000335-BLUE",
+          "seller_sku": "FRAME-7Inch-BLUE-TTS",
+          "price": {
+            "amount": 366787,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 46,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000335",
+      "product_name": "VTX 5.8GHz 800mW - Titanium 9 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000001",
+      "brand": "Motekar FPV",
+      "price": 230197,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-336-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-336-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-336-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-336-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1759441811666.1733,
+      "updated_time": 1761664403455.3193,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Titanium"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "9 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000336-RED",
+          "seller_sku": "FRAME-9Inch-RED-TTS",
+          "price": {
+            "amount": 257465,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 21,
+              "reserved_stock": 3
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000336-BLUE",
+          "seller_sku": "FRAME-9Inch-BLUE-TTS",
+          "price": {
+            "amount": 540359,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 7,
+              "reserved_stock": 3
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000336",
+      "product_name": "Receiver ELRS 2.4GHz - Carbon Fiber 3 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000002",
+      "brand": "Motekar FPV",
+      "price": 105512,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-337-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-337-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-337-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-337-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1761849104196.4443,
+      "updated_time": 1761923966275.3884,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "3 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000337-RED",
+          "seller_sku": "FRAME-3Inch-RED-TTS",
+          "price": {
+            "amount": 381978,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 18,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000337-BLUE",
+          "seller_sku": "FRAME-3Inch-BLUE-TTS",
+          "price": {
+            "amount": 413715,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 41,
+              "reserved_stock": 3
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000337",
+      "product_name": "Motor 2207 2750KV - Aluminum 4 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000003",
+      "brand": "Motekar FPV",
+      "price": 288960,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-338-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-338-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-338-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-338-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760486569767.3035,
+      "updated_time": 1762002511127.2607,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Aluminum"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "4 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000338-RED",
+          "seller_sku": "FRAME-4Inch-RED-TTS",
+          "price": {
+            "amount": 360506,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 35,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000338-BLUE",
+          "seller_sku": "FRAME-4Inch-BLUE-TTS",
+          "price": {
+            "amount": 281292,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 17,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000338",
+      "product_name": "Battery 4S 1500mAh - Plastic 5 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000004",
+      "brand": "Motekar FPV",
+      "price": 290315,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-339-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-339-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-339-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-339-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1761400126348.959,
+      "updated_time": 1761832179612.7358,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Plastic"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000339-RED",
+          "seller_sku": "FRAME-5Inch-RED-TTS",
+          "price": {
+            "amount": 422781,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 14,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000339-BLUE",
+          "seller_sku": "FRAME-5Inch-BLUE-TTS",
+          "price": {
+            "amount": 476058,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 46,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000339",
+      "product_name": "Antenna Pagoda 5.8GHz - Titanium 6 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000005",
+      "brand": "Motekar FPV",
+      "price": 321029,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-340-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-340-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-340-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-340-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1759939794541.683,
+      "updated_time": 1761744517714.4316,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Titanium"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "6 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000340-RED",
+          "seller_sku": "FRAME-6Inch-RED-TTS",
+          "price": {
+            "amount": 69783,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 17,
+              "reserved_stock": 3
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000340-BLUE",
+          "seller_sku": "FRAME-6Inch-BLUE-TTS",
+          "price": {
+            "amount": 497714,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 47,
+              "reserved_stock": 3
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000340",
+      "product_name": "Racing Frame 5 Inch Carbon - Carbon Fiber 7 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000001",
+      "brand": "Motekar FPV",
+      "price": 442205,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-341-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-341-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-341-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-341-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760120811357.7295,
+      "updated_time": 1761839659239.2146,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "7 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000341-RED",
+          "seller_sku": "FRAME-7Inch-RED-TTS",
+          "price": {
+            "amount": 280274,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 15,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000341-BLUE",
+          "seller_sku": "FRAME-7Inch-BLUE-TTS",
+          "price": {
+            "amount": 110007,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 44,
+              "reserved_stock": 3
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000341",
+      "product_name": "Propeller 9 Inch High Performance - Aluminum 9 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000002",
+      "brand": "Motekar FPV",
+      "price": 390052,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-342-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-342-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-342-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-342-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760289480327.442,
+      "updated_time": 1761880778114.9827,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Aluminum"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "9 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000342-RED",
+          "seller_sku": "FRAME-9Inch-RED-TTS",
+          "price": {
+            "amount": 93011,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 27,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000342-BLUE",
+          "seller_sku": "FRAME-9Inch-BLUE-TTS",
+          "price": {
+            "amount": 53609,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 10,
+              "reserved_stock": 1
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000342",
+      "product_name": "FPV Camera 1200TVL - Plastic 3 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000003",
+      "brand": "Motekar FPV",
+      "price": 225736,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-343-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-343-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-343-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-343-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1761440377949.9465,
+      "updated_time": 1761792969364.8618,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Plastic"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "3 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000343-RED",
+          "seller_sku": "FRAME-3Inch-RED-TTS",
+          "price": {
+            "amount": 77975,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 45,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000343-BLUE",
+          "seller_sku": "FRAME-3Inch-BLUE-TTS",
+          "price": {
+            "amount": 345246,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 7,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000343",
+      "product_name": "ESC 4in1 35A - Titanium 4 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000004",
+      "brand": "Motekar FPV",
+      "price": 339163,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-344-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-344-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-344-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-344-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760721349010.6062,
+      "updated_time": 1761422915860.354,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Titanium"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "4 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000344-RED",
+          "seller_sku": "FRAME-4Inch-RED-TTS",
+          "price": {
+            "amount": 345189,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 17,
+              "reserved_stock": 3
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000344-BLUE",
+          "seller_sku": "FRAME-4Inch-BLUE-TTS",
+          "price": {
+            "amount": 208122,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 36,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000344",
+      "product_name": "Flight Controller F4 - Carbon Fiber 5 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000005",
+      "brand": "Motekar FPV",
+      "price": 247434,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-345-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-345-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-345-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-345-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760215232624.5293,
+      "updated_time": 1761524042071.9778,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "5 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000345-RED",
+          "seller_sku": "FRAME-5Inch-RED-TTS",
+          "price": {
+            "amount": 225708,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 26,
+              "reserved_stock": 4
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000345-BLUE",
+          "seller_sku": "FRAME-5Inch-BLUE-TTS",
+          "price": {
+            "amount": 447342,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 26,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000345",
+      "product_name": "VTX 5.8GHz 800mW - Aluminum 6 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000001",
+      "brand": "Motekar FPV",
+      "price": 430470,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-346-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-346-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-346-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-346-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760476387514.1062,
+      "updated_time": 1761467078145.6611,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Aluminum"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "6 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000346-RED",
+          "seller_sku": "FRAME-6Inch-RED-TTS",
+          "price": {
+            "amount": 516850,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 6,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000346-BLUE",
+          "seller_sku": "FRAME-6Inch-BLUE-TTS",
+          "price": {
+            "amount": 430591,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 6,
+              "reserved_stock": 1
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000346",
+      "product_name": "Receiver ELRS 2.4GHz - Plastic 7 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000002",
+      "brand": "Motekar FPV",
+      "price": 53904,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-347-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-347-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-347-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-347-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760171855037.2773,
+      "updated_time": 1761422959741.9104,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Plastic"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "7 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000347-RED",
+          "seller_sku": "FRAME-7Inch-RED-TTS",
+          "price": {
+            "amount": 464900,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 28,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000347-BLUE",
+          "seller_sku": "FRAME-7Inch-BLUE-TTS",
+          "price": {
+            "amount": 93405,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 29,
+              "reserved_stock": 3
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000347",
+      "product_name": "Motor 2207 2750KV - Titanium 9 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000003",
+      "brand": "Motekar FPV",
+      "price": 94960,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-348-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-348-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-348-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-348-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1761774978662.675,
+      "updated_time": 1761452972558.9082,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Titanium"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "9 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000348-RED",
+          "seller_sku": "FRAME-9Inch-RED-TTS",
+          "price": {
+            "amount": 99953,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 45,
+              "reserved_stock": 1
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000348-BLUE",
+          "seller_sku": "FRAME-9Inch-BLUE-TTS",
+          "price": {
+            "amount": 409296,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 42,
+              "reserved_stock": 3
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000348",
+      "product_name": "Battery 4S 1500mAh - Carbon Fiber 3 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000004",
+      "brand": "Motekar FPV",
+      "price": 533404,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-349-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-349-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-349-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-349-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1759891876678.6191,
+      "updated_time": 1761488993255.082,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Carbon Fiber"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "3 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000349-RED",
+          "seller_sku": "FRAME-3Inch-RED-TTS",
+          "price": {
+            "amount": 306027,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 34,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000349-BLUE",
+          "seller_sku": "FRAME-3Inch-BLUE-TTS",
+          "price": {
+            "amount": 93458,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 33,
+              "reserved_stock": 1
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product_id": "TTS001000349",
+      "product_name": "Antenna Pagoda 5.8GHz - Aluminum 4 Inch untuk FPV Racing",
+      "description": "Premium quality drone part manufactured with precision engineering. Perfect for racing and freestyle applications. Pre-order 5 hari kerja. Garansi 30 hari. Kualitas terjamin.",
+      "category_id": "CAT000005",
+      "brand": "Motekar FPV",
+      "price": 230899,
+      "images": [
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-350-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-350-thumb.jpg"
+          ]
+        },
+        {
+          "url": "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-350-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/tos-maliva-i-o3syd03w52-us/product-350-side-thumb.jpg"
+          ]
+        }
+      ],
+      "weight": 0.05,
+      "dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "status": "ACTIVE",
+      "created_time": 1760274271177.161,
+      "updated_time": 1761622719539.0237,
+      "include_tokopedia": false,
+      "delivery_options": [
+        {
+          "delivery_option_id": "standard",
+          "delivery_option_name": "Standard Delivery",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "manufacturer": "Motekar Manufacturing",
+      "category_chains": [
+        {
+          "id": "electronics",
+          "name": "Electronics",
+          "parent_id": null
+        },
+        {
+          "id": "drone_parts",
+          "name": "Drone Parts",
+          "parent_id": "electronics"
+        }
+      ],
+      "sales_attributes": [
+        {
+          "attribute_name": "Material",
+          "attribute_value": "Aluminum"
+        },
+        {
+          "attribute_name": "Size",
+          "attribute_value": "4 Inch"
+        },
+        {
+          "attribute_name": "Weight",
+          "attribute_value": "50g"
+        }
+      ],
+      "skus": [
+        {
+          "id": "SKU-TTS-000350-RED",
+          "seller_sku": "FRAME-4Inch-RED-TTS",
+          "price": {
+            "amount": 382890,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 36,
+              "reserved_stock": 0
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Red"
+            }
+          ]
+        },
+        {
+          "id": "SKU-TTS-000350-BLUE",
+          "seller_sku": "FRAME-4Inch-BLUE-TTS",
+          "price": {
+            "amount": 525849,
+            "currency": "IDR"
+          },
+          "inventory": [
+            {
+              "warehouse_id": "WH001",
+              "available_stock": 29,
+              "reserved_stock": 2
+            }
+          ],
+          "sales_attributes": [
+            {
+              "attribute_name": "Color",
+              "attribute_value": "Blue"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "importedAt": "2025-11-01T17:21:30.876Z",
+    "source": "tiktokshop_api_batch",
+    "version": "1.0",
+    "organizationId": "mock-org",
+    "storeId": "mock-store"
+  },
+  "stats": {
+    "totalProducts": 50,
+    "productsWithVariants": 50,
+    "tokopediaEnabledProducts": 0
+  }
+}

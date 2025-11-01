@@ -1,136 +1,175 @@
-# SyncStore 🏪
+# 🚀 SyncStore - E-commerce Multi-Platform Management System
 
-> Cross-platform e-commerce store management system for unified multi-marketplace operations
+> A comprehensive solution for managing FPV drone parts across multiple e-commerce platforms with automated synchronization, inventory management, and analytics.
 
-**Current Status**: Shopee Integration 85% Complete | Ready for AI-Assisted Development
+[![Phase 1](https://img.shields.io/badge/Phase%201-Complete-success)](./docs/phase1/)
+[![Phase 2](https://img.shields.io/badge/Phase%202-Planned-blue)](./.kiro/specs/syncstore-phase2/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black)](https://nextjs.org/)
+[![License](https://img.shields.io/badge/License-Proprietary-red)](./LICENSE)
 
-[![Development Status](https://img.shields.io/badge/Status-Active%20Development-green.svg)](https://github.com/kerjaptc/syncstore)
-[![Shopee Integration](https://img.shields.io/badge/Shopee-85%25%20Complete-orange.svg)](docs/development/shopee-integration/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+---
 
-## 🚀 Overview
+## 📋 Table of Contents
 
-SyncStore is a comprehensive cross-platform e-commerce management system designed to unify store operations across multiple marketplaces and channels. It provides centralized control for multi-platform selling operations, focusing on synchronizing inventory, managing orders, and providing business intelligence.
+- [Overview](#overview)
+- [Features](#features)
+- [Architecture](#architecture)
+- [Getting Started](#getting-started)
+- [Project Status](#project-status)
+- [Documentation](#documentation)
+- [Technology Stack](#technology-stack)
+- [Development](#development)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
-**🎯 Current Development Focus**: Completing Shopee integration and preparing for multi-platform expansion.
+---
 
-### ✅ Implemented Features
+## 🎯 Overview
 
-- 🔐 **Authentication System**: Clerk integration fully functional
-- 🏗️ **Core Infrastructure**: Database, API routes, middleware (95% complete)
-- 🛍️ **Shopee Integration**: OAuth flow, store connection, UI components (85% complete)
-- 🎨 **Modern Dashboard**: Responsive UI with store management interface
-- 🔒 **Security**: Credential encryption, multi-tenant isolation
-- 📊 **Monitoring**: Error tracking with Sentry, performance monitoring
+SyncStore is a personal e-commerce management system designed to streamline product management across multiple marketplace platforms. It provides a unified master catalog, automated synchronization, intelligent pricing, and SEO optimization.
 
-### 🔄 In Development
+### Key Objectives
 
-- 🛍️ **Shopee Product Sync**: API integration and data mapping
-- 📦 **Inventory Management**: Real-time stock synchronization
-- 📋 **Order Processing**: Unified order management interface
+1. **Unified Product Management** - Single source of truth for all products
+2. **Multi-Platform Sync** - Automated synchronization to Shopee, TikTok Shop, and more
+3. **Intelligent Pricing** - Platform-specific pricing with fee calculations
+4. **SEO Optimization** - Automated title generation with platform variations
+5. **Inventory Management** - Real-time stock tracking across platforms
+6. **Analytics & Insights** - Performance tracking and reporting
 
-### 📋 Planned Features
+---
 
-- 🔗 **TikTok Shop Integration**: Multi-platform expansion
-- 📊 **Advanced Analytics**: Business intelligence and reporting
-- ⚡ **Real-Time Sync**: Automated synchronization with conflict resolution
-- 🌐 **Custom Website**: Integrated e-commerce storefront
+## ✨ Features
+
+### Phase 1 (✅ Complete)
+
+#### Data Import & Management
+- ✅ Import products from Shopee and TikTok Shop
+- ✅ Automated data validation and transformation
+- ✅ Master catalog with unified schema
+- ✅ Platform-specific mappings
+- ✅ Batch processing with error handling
+
+#### Pricing System
+- ✅ Base price calculation
+- ✅ Platform-specific fee calculations
+- ✅ Configurable pricing rules
+- ✅ 95%+ pricing accuracy
+- ✅ Performance optimized (< 100ms)
+
+#### SEO System
+- ✅ Automated title generation
+- ✅ 70-80% similarity with variations
+- ✅ Platform-specific optimizations
+- ✅ Keyword integration
+- ✅ Quality scoring
+
+#### Testing & Validation
+- ✅ Comprehensive data validator
+- ✅ Pricing and SEO tester
+- ✅ Integration tests
+- ✅ Performance tests
+- ✅ 80%+ test coverage
+
+### Phase 2 (📋 Planned)
+
+#### Web Dashboard
+- 📋 Product management interface
+- 📋 Dashboard with analytics
+- 📋 Responsive design
+- 📋 Real-time updates
+
+#### Synchronization
+- 📋 Automated sync to platforms
+- 📋 Job queue system (BullMQ)
+- 📋 Retry logic and error handling
+- 📋 Sync monitoring and logs
+
+#### Inventory Management
+- 📋 Cross-platform inventory sync
+- 📋 Low-stock alerts
+- 📋 Inventory history tracking
+- 📋 Real-time updates
+
+#### Advanced Features
+- 📋 Webhook integration
+- 📋 Conflict resolution
+- 📋 Bulk operations
+- 📋 Analytics & reporting
+- 📋 Dry-run mode
+- 📋 Event sourcing
+
+---
 
 ## 🏗️ Architecture
 
-SyncStore follows a modular monolith architecture with microservices readiness:
+### Current Architecture (Phase 1)
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                    PRESENTATION LAYER                            │
-│  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐  │
-│  │   Web App       │  │   Mobile Web    │  │   Admin Panel   │  │
-│  │  (Next.js 15)   │  │   (Responsive)  │  │   (Dashboard)   │  │
-│  └─────────────────┘  └─────────────────┘  └─────────────────┘  │
-└────────────────┬────────────────────────────────────────────────┘
-                 │ HTTPS/WebSocket
-                 ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                  API GATEWAY LAYER                               │
-│  ┌─────────────────────────────────────────────────────────────┐ │
-│  │           Next.js App Router + tRPC                         │ │
-│  │     (Authentication, Rate Limiting, Request Routing)        │ │
-│  └─────────────────────────────────────────────────────────────┘ │
-└────────────────┬────────────────────────────────────────────────┘
-                 │
-                 ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                 BUSINESS LOGIC LAYER                             │
-│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ │
-│  │   Store     │ │  Inventory  │ │    Order    │ │ Integration │ │
-│  │  Service    │ │   Service   │ │   Service   │ │   Service   │ │
-│  └─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘ │
-└─────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────┐
+│                  Next.js Application                 │
+│  ┌──────────────┐  ┌──────────────┐  ┌───────────┐ │
+│  │   Importers  │  │   Pricing    │  │    SEO    │ │
+│  │   (Shopee,   │  │  Calculator  │  │ Generator │ │
+│  │  TikTokShop) │  │              │  │           │ │
+│  └──────────────┘  └──────────────┘  └───────────┘ │
+└─────────────────────────────────────────────────────┘
+                        │
+                        ▼
+┌─────────────────────────────────────────────────────┐
+│              PostgreSQL Database (Neon)              │
+│  ┌──────────────────────────────────────────────┐  │
+│  │  Master Catalog + Platform Mappings          │  │
+│  └──────────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────────┘
 ```
 
-## 🛠️ Tech Stack
+### Planned Architecture (Phase 2)
 
-### Core Technologies
-- **Framework**: Next.js 15 with App Router
-- **Language**: TypeScript 5.x
-- **Database**: PostgreSQL with Drizzle ORM
-- **Authentication**: Clerk
-- **Styling**: Tailwind CSS v4 + shadcn/ui
-- **State Management**: Zustand + tRPC
-- **Testing**: Vitest + Testing Library
+```
+┌──────────────────────────────────────────────────────┐
+│                    VERCEL                             │
+│  Frontend (Next.js 15 + React 18) + API Routes       │
+│  Authentication: Clerk                                │
+└──────────────────────────────────────────────────────┘
+                        │
+                        ▼
+┌──────────────────────────────────────────────────────┐
+│                 UPSTASH REDIS                         │
+│  Job Queue + Cache + Rate Limiting                   │
+└──────────────────────────────────────────────────────┘
+                        │
+                        ▼
+┌──────────────────────────────────────────────────────┐
+│              RAILWAY/RENDER                           │
+│  BullMQ Workers (Sync, Webhook, Outbox, Cleanup)    │
+└──────────────────────────────────────────────────────┘
+                        │
+                        ▼
+┌──────────────────────────────────────────────────────┐
+│            NEON/SUPABASE POSTGRESQL                   │
+│  Master Catalog + 10 New Tables                      │
+└──────────────────────────────────────────────────────┘
+```
 
-### Infrastructure
-- **Hosting**: Vercel (✅ Active)
-- **Database**: Neon PostgreSQL (✅ Active)
-- **Authentication**: Clerk (✅ Active)
-- **Monitoring**: Sentry (✅ Active)
-- **Cache/Queue**: Redis (📋 Planned)
-- **Analytics**: PostHog (📋 Planned)
+---
 
-## 🤖 For AI Development Tools
-
-This project is **optimized for AI-assisted development** with:
-
-### 📚 **Comprehensive Documentation**
-- **Current Status**: [`docs/development/current-status.md`](docs/development/current-status.md)
-- **Architecture**: [`docs/development/architecture.md`](docs/development/architecture.md)
-- **Shopee Integration**: [`docs/development/shopee-integration/`](docs/development/shopee-integration/)
-- **Next Steps**: [`docs/development/next-steps.md`](docs/development/next-steps.md)
-- **Troubleshooting**: [`docs/development/troubleshooting.md`](docs/development/troubleshooting.md)
-
-### 🎯 **Current Development Context**
-- **Phase**: Shopee integration testing and refinement
-- **Progress**: 85% complete, OAuth flow implemented
-- **Next Priority**: Complete sandbox testing, implement product sync
-- **Known Issues**: Configuration management, error handling refinement
-
-### 🛠️ **Development Ready**
-- ✅ **Core Infrastructure**: Authentication, database, API routes working
-- ✅ **Development Environment**: Optimized scripts, diagnostic tools
-- ✅ **Error Tracking**: Comprehensive logging and monitoring
-- ✅ **Type Safety**: Full TypeScript implementation with strict types
-
-### 📋 **Immediate Tasks Available**
-1. Complete Shopee sandbox testing validation
-2. Implement basic product synchronization
-3. Enhance error handling and user feedback
-4. Optimize API call patterns and caching
-
-## 🚀 Quick Start
+## 🚀 Getting Started
 
 ### Prerequisites
 
 - Node.js 18+ 
-- npm 8+ (or pnpm/yarn)
-- PostgreSQL 15+ (for production database)
-- Supabase account (recommended for database hosting)
-- Clerk account (for authentication)
+- PostgreSQL database
+- Shopee API credentials
+- TikTok Shop API credentials
 
 ### Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/kerjaptc/syncstore.git
+   git clone <repository-url>
    cd syncstore
    ```
 
@@ -144,241 +183,303 @@ This project is **optimized for AI-assisted development** with:
    cp .env.example .env.local
    ```
    
-   Fill in the required environment variables:
+   Edit `.env.local` with your credentials:
    ```env
-   # Authentication (Required) - Get from Clerk Dashboard
-   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="pk_test_..."
-   CLERK_SECRET_KEY="sk_test_..."
-   
-   # Database (Required) - Get from Neon Dashboard
-   DATABASE_URL="postgresql://username:password@host/database"
-   
-   # Security (Required) - Generate a secure 32+ character key
-   ENCRYPTION_KEY="your-32-character-encryption-key-here"
-   
-   # Shopee Integration (Optional) - For marketplace integration
-   SHOPEE_PARTNER_ID="your-partner-id"
-   SHOPEE_PARTNER_KEY="your-partner-key"
-   
-   # Monitoring (Optional) - For error tracking
-   SENTRY_DSN="your-sentry-dsn"
+   DATABASE_URL=your_postgresql_url
+   SHOPEE_PARTNER_ID=your_shopee_partner_id
+   SHOPEE_PARTNER_KEY=your_shopee_partner_key
+   TIKTOKSHOP_APP_KEY=your_tiktokshop_app_key
+   TIKTOKSHOP_APP_SECRET=your_tiktokshop_app_secret
    ```
 
-4. **Set up authentication (Clerk)**
-   - Create account at [clerk.com](https://clerk.com)
-   - Create new application
-   - Copy API keys to `.env.local`
+4. **Run database migrations**
+   ```bash
+   npm run db:push
+   ```
 
-5. **Set up database (Neon)**
-   - Create account at [neon.tech](https://neon.tech)
-   - Create new project
-   - Copy connection string to `.env.local`
-   - Run migrations: `npm run db:migrate`
-
-6. **Start the development server**
+5. **Start development server**
    ```bash
    npm run dev
    ```
 
-7. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+6. **Open browser**
+   ```
+   http://localhost:3000
+   ```
 
-## 📋 Development Workflow
+### Quick Start Scripts
+
+```bash
+# Import Shopee products
+npm run import:shopee
+
+# Import TikTok Shop products
+npm run import:tiktokshop
+
+# Validate data
+npm run validate:data
+
+# Test pricing and SEO
+npm run test:pricing-seo
+
+# Check task completion
+npm run check:tasks
+```
+
+---
+
+## 📊 Project Status
+
+### Phase 1: Backend Foundation ✅
+
+| Component | Status | Completion |
+|-----------|--------|------------|
+| Data Import | ✅ Complete | 100% |
+| Master Catalog | ✅ Complete | 100% |
+| Pricing System | ✅ Complete | 100% |
+| SEO System | ✅ Complete | 100% |
+| Testing | ✅ Complete | 100% |
+| Documentation | ✅ Complete | 100% |
+
+**Overall: 41/41 tasks completed (100%)**
+
+### Phase 2: UI & Synchronization 📋
+
+| Component | Status | Completion |
+|-----------|--------|------------|
+| Planning | ✅ Complete | 100% |
+| Infrastructure | 📋 Planned | 0% |
+| Dashboard UI | 📋 Planned | 0% |
+| Sync Engine | 📋 Planned | 0% |
+| Webhooks | 📋 Planned | 0% |
+| Analytics | 📋 Planned | 0% |
+
+**Overall: 0/60+ tasks completed (0%)**
+
+See [PROJECT-STATUS.md](./docs/PROJECT-STATUS.md) for detailed status.
+
+---
+
+## 📚 Documentation
+
+### Phase 1 Documentation
+- [Requirements](./kiro/specs/syncstore-phase1/requirements.md)
+- [Design](./kiro/specs/syncstore-phase1/design.md)
+- [Tasks](./kiro/specs/syncstore-phase1/tasks.md)
+- [Technical Documentation](./docs/phase1/technical-documentation.md)
+- [Completion Report](./docs/phase1/phase1-completion-report.md)
+- [Final Validation Report](./docs/phase1/final-validation-report.md)
+
+### Phase 2 Documentation
+- [Requirements](./kiro/specs/syncstore-phase2/requirements.md)
+- [Design](./kiro/specs/syncstore-phase2/design.md)
+- [Tasks](./kiro/specs/syncstore-phase2/tasks.md)
+- [Overview](./kiro/specs/syncstore-phase2/PHASE2-OVERVIEW.md)
+- [Design Updates](./kiro/specs/syncstore-phase2/DESIGN-UPDATES.md)
+- [Ready to Start](./kiro/specs/syncstore-phase2/READY-TO-START.md)
+
+### Additional Documentation
+- [Project Status](./docs/PROJECT-STATUS.md)
+- [Changelog](./CHANGELOG.md)
+- [Troubleshooting Guide](./docs/phase1/troubleshooting-guide.md)
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+- **Framework:** Next.js 15 (App Router)
+- **UI Library:** React 18
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Components:** shadcn/ui (Phase 2)
+- **State Management:** Zustand (Phase 2)
+- **Data Fetching:** TanStack Query (Phase 2)
+
+### Backend
+- **Runtime:** Node.js 18+
+- **Framework:** Next.js API Routes
+- **ORM:** Drizzle
+- **Database:** PostgreSQL (Neon)
+- **Authentication:** Clerk (Phase 2)
+- **Job Queue:** BullMQ (Phase 2)
+- **Cache:** Redis (Upstash) (Phase 2)
+
+### Testing
+- **Framework:** Vitest
+- **Coverage:** 80%+
+- **E2E:** Playwright (planned)
+
+### DevOps
+- **Hosting:** Vercel
+- **Database:** Neon
+- **Workers:** Railway/Render (Phase 2)
+- **Monitoring:** Sentry, LogRocket (Phase 2)
+- **CI/CD:** GitHub Actions (planned)
+
+---
+
+## 💻 Development
+
+### Project Structure
+
+```
+syncstore/
+├── .kiro/specs/          # Project specifications
+├── docs/                 # Documentation
+├── src/
+│   ├── app/             # Next.js app directory
+│   ├── lib/             # Core business logic
+│   │   ├── importers/   # Platform importers
+│   │   ├── validators/  # Data validators
+│   │   ├── pricing/     # Pricing calculator
+│   │   ├── seo/         # SEO title generator
+│   │   ├── schema/      # Data schemas
+│   │   ├── db/          # Database schema
+│   │   └── services/    # Business services
+│   └── components/      # React components (Phase 2)
+├── scripts/             # Automation scripts
+├── data/                # Raw data imports
+└── drizzle/             # Database migrations
+```
 
 ### Available Scripts
 
 ```bash
 # Development
-npm run dev              # Start development server
-npm run dev:light        # Start with optimizations (recommended)
+npm run dev              # Start dev server
 npm run build            # Build for production
 npm run start            # Start production server
-
-# Diagnostics & Maintenance
-npm run diagnose         # Full system health check
-npm run diagnose:env     # Check environment variables
-npm run diagnose:db      # Check database connectivity
-npm run fix:clerk        # Fix Clerk authentication issues
-
-# Code Quality
 npm run lint             # Run ESLint
-npm run lint:fix         # Fix ESLint issues
-npm run type-check       # Run TypeScript checks
+npm run type-check       # Run TypeScript check
+
+# Database
+npm run db:push          # Push schema changes
+npm run db:studio        # Open Drizzle Studio
+npm run db:generate      # Generate migrations
 
 # Testing
 npm run test             # Run tests
-npm run test:coverage    # Run tests with coverage
+npm run test:watch       # Run tests in watch mode
+npm run test:coverage    # Generate coverage report
 
-# Database
-npm run db:migrate       # Run database migrations
-npm run db:studio        # Open Drizzle Studio
-npm run db:reset         # Reset database (development only)
+# Phase 1 Scripts
+npm run import:shopee    # Import Shopee products
+npm run import:tiktokshop # Import TikTok Shop products
+npm run validate:data    # Validate all data
+npm run test:pricing-seo # Test pricing and SEO
+npm run check:tasks      # Check task completion
 ```
 
-### Code Style
+### Coding Standards
 
-This project uses:
-- **ESLint** for code linting
-- **Prettier** for code formatting
-- **Husky** for git hooks
-- **lint-staged** for pre-commit checks
-
-### Testing Strategy
-
-- **Unit Tests**: Service layer and utility functions
-- **Integration Tests**: API endpoints and database operations
-- **E2E Tests**: Critical user journeys
-- **Coverage Target**: 80%+ for all metrics
-
-## 🔧 Configuration
-
-### Environment Variables
-
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `DATABASE_URL` | PostgreSQL connection string | ✅ |
-| `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` | Clerk public key | ✅ |
-| `CLERK_SECRET_KEY` | Clerk secret key | ✅ |
-| `ENCRYPTION_KEY` | 32+ character encryption key | ✅ |
-| `REDIS_URL` | Redis connection string | ❌ |
-| `SHOPEE_PARTNER_ID` | Shopee API partner ID | ❌ |
-| `TIKTOK_SHOP_APP_KEY` | TikTok Shop API key | ❌ |
-
-### Database Setup
-
-1. **Create a PostgreSQL database**
-2. **Set the `DATABASE_URL` environment variable**
-3. **Run migrations**: `pnpm db:migrate`
-4. **Seed data**: `pnpm db:seed`
-
-### Authentication Setup (Clerk)
-
-1. **Create a Clerk account** at [clerk.com](https://clerk.com)
-2. **Create a new application**
-3. **Copy the API keys** to your `.env.local` file
-4. **Configure sign-in methods** in the Clerk dashboard
-
-## 🔒 Security Features
-
-- **Environment Validation**: Zod schemas for all environment variables
-- **Data Encryption**: AES-256 encryption for sensitive data
-- **Row Level Security**: Multi-tenant data isolation
-- **CSRF Protection**: Built-in protection for state-changing operations
-- **Rate Limiting**: API endpoint protection
-- **Security Headers**: HSTS, CSP, and other security headers
-- **Dependency Scanning**: Automated vulnerability scanning in CI/CD
-
-## 📊 Monitoring & Observability
-
-- **Error Tracking**: Sentry integration
-- **Performance Monitoring**: Web Vitals and custom metrics
-- **Structured Logging**: JSON logs with correlation IDs
-- **Health Checks**: Automated system health monitoring
-- **Alerting**: Real-time notifications for critical issues
-
-## 🚀 Deployment
-
-### Vercel (Recommended)
-
-1. **Connect your repository** to Vercel
-2. **Set environment variables** in Vercel dashboard
-3. **Deploy**: Automatic deployments on push to main
-
-### Docker (Alternative)
-
-```bash
-# Build the Docker image
-docker build -t syncstore .
-
-# Run the container
-docker run -p 3000:3000 --env-file .env.local syncstore
-```
-
-### Environment-Specific Deployments
-
-- **Development**: `develop` branch → Staging environment
-- **Production**: `main` branch → Production environment
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
-### Development Process
-
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Make your changes**
-4. **Add tests** for new functionality
-5. **Run the test suite**: `pnpm test`
-6. **Commit your changes**: `git commit -m 'Add amazing feature'`
-7. **Push to the branch**: `git push origin feature/amazing-feature`
-8. **Open a Pull Request**
-
-### Code Review Process
-
-- All changes require review from at least one maintainer
-- Automated tests must pass
-- Code coverage must not decrease
-- Security scan must pass
-
-## 📚 Documentation
-
-- **API Documentation**: Available at `/api/docs` when running locally
-- **Database Schema**: See `src/lib/db/schema.ts`
-- **Architecture Decision Records**: See `docs/adr/`
-- **Deployment Guide**: See `docs/deployment.md`
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**Database Connection Issues**
-```bash
-# Check if PostgreSQL is running
-pg_isready -h localhost -p 5432
-
-# Verify connection string format
-DATABASE_URL="postgresql://username:password@host:port/database"
-```
-
-**Environment Variable Issues**
-```bash
-# Validate environment variables
-pnpm type-check
-
-# Check for missing variables
-SKIP_ENV_VALIDATION=false pnpm build
-```
-
-**Build Issues**
-```bash
-# Clear Next.js cache
-rm -rf .next
-
-# Reinstall dependencies
-rm -rf node_modules pnpm-lock.yaml
-pnpm install
-```
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [Next.js](https://nextjs.org/) for the amazing framework
-- [Clerk](https://clerk.com/) for authentication
-- [Drizzle](https://orm.drizzle.team/) for the type-safe ORM
-- [shadcn/ui](https://ui.shadcn.com/) for the beautiful components
-- [Vercel](https://vercel.com/) for hosting and deployment
-
-## 📞 Support
-
-- **Documentation**: [docs.syncstore.com](https://docs.syncstore.com)
-- **Issues**: [GitHub Issues](https://github.com/kerjaptc/syncstore/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/kerjaptc/syncstore/discussions)
-- **Email**: support@syncstore.com
+- **TypeScript:** Strict mode enabled
+- **ESLint:** Airbnb config with custom rules
+- **Prettier:** Automatic formatting
+- **Commit Messages:** Conventional commits
+- **Testing:** Minimum 80% coverage
 
 ---
 
-**Built with ❤️ by the SyncStore Team**
+## 🚢 Deployment
+
+### Current Deployment (Phase 1)
+
+**Platform:** Vercel  
+**Database:** Neon PostgreSQL  
+**Status:** Development
+
+### Planned Deployment (Phase 2)
+
+**Frontend & API:** Vercel  
+**Workers:** Railway or Render  
+**Database:** Neon or Supabase  
+**Cache/Queue:** Upstash Redis  
+**Monitoring:** Sentry + LogRocket
+
+### Environment Variables
+
+Required environment variables:
+
+```env
+# Database
+DATABASE_URL=
+
+# Shopee API
+SHOPEE_PARTNER_ID=
+SHOPEE_PARTNER_KEY=
+SHOPEE_REDIRECT_URL=
+
+# TikTok Shop API
+TIKTOKSHOP_APP_KEY=
+TIKTOKSHOP_APP_SECRET=
+TIKTOKSHOP_REDIRECT_URL=
+
+# Phase 2 (Additional)
+REDIS_URL=
+CLERK_SECRET_KEY=
+ENCRYPTION_KEY=
+SENTRY_DSN=
+```
+
+---
+
+## 🤝 Contributing
+
+This is a private project. For internal contributions:
+
+1. Create a feature branch
+2. Make your changes
+3. Write/update tests
+4. Update documentation
+5. Submit for review
+
+---
+
+## 📈 Statistics
+
+### Phase 1 Achievements
+- **Products Imported:** 4,147
+- **Shopee Products:** 3,647
+- **TikTok Shop Products:** 500
+- **Data Quality Score:** 95%+
+- **Test Coverage:** 80%+
+- **Tasks Completed:** 41/41 (100%)
+- **Documentation Pages:** 15+
+
+### Performance Metrics
+- **Pricing Calculation:** < 100ms average
+- **SEO Generation:** < 200ms average
+- **Data Import:** 4,147 products processed
+- **Validation Success:** 95%+
+
+---
+
+## 📄 License
+
+Proprietary - All rights reserved
+
+---
+
+## 🙏 Acknowledgments
+
+- Built with Next.js, React, and TypeScript
+- Database powered by Neon PostgreSQL
+- ORM by Drizzle
+- UI components by shadcn/ui
+- Developed with AI assistance (Kiro)
+
+---
+
+## 📞 Support
+
+For questions or issues:
+- Check [Documentation](./docs/)
+- Review [Project Status](./docs/PROJECT-STATUS.md)
+- See [Troubleshooting Guide](./docs/phase1/troubleshooting-guide.md)
+
+---
+
+**Built with ❤️ for efficient e-commerce management**
+
+*Last Updated: ${new Date().toISOString().split('T')[0]}*

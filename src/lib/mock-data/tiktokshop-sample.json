@@ -1,0 +1,271 @@
+{
+  "tiktokshop_product_search_response": {
+    "code": 0,
+    "message": "success",
+    "data": {
+      "products": [
+        {
+          "product_id": "TTS-456789",
+          "product_name": "Racing Frame 5 Inch Carbon - Ringan & Kuat untuk FPV",
+          "product_status": "ACTIVE",
+          "create_time": 1698825600,
+          "update_time": 1699084800
+        },
+        {
+          "product_id": "TTS-789012", 
+          "product_name": "Propeller 9 Inch High Performance",
+          "product_status": "ACTIVE",
+          "create_time": 1698739200,
+          "update_time": 1699084800
+        }
+      ],
+      "total": 2,
+      "more": false
+    }
+  },
+  "tiktokshop_product_detail_response": {
+    "code": 0,
+    "message": "success",
+    "data": {
+      "product_id": "TTS-456789",
+      "product_name": "Racing Frame 5 Inch Carbon - Ringan & Kuat untuk FPV",
+      "description": "Frame racing drone 5 inch premium dari carbon fiber. Desain aerodinamis untuk performa terbaik. Cocok untuk racing dan freestyle. Pre-order 5 hari dengan kualitas terjamin.",
+      "brand_name": "Motekar FPV",
+      "category_id": "electronics-456",
+      "product_status": "ACTIVE",
+      "create_time": 1698825600,
+      "update_time": 1699084800,
+      "images": [
+        {
+          "id": "tts-img-001",
+          "url": "https://p16-oec-va.tiktokcdn.com/frame-5inch-main.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/frame-5inch-thumb-100.jpg",
+            "https://p16-oec-va.tiktokcdn.com/frame-5inch-thumb-200.jpg"
+          ],
+          "uri": "frame-5inch-main"
+        },
+        {
+          "id": "tts-img-002",
+          "url": "https://p16-oec-va.tiktokcdn.com/frame-5inch-side.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/frame-5inch-side-thumb-100.jpg"
+          ],
+          "uri": "frame-5inch-side"
+        },
+        {
+          "id": "tts-img-003",
+          "url": "https://p16-oec-va.tiktokcdn.com/frame-5inch-detail.jpg",
+          "thumb_urls": [
+            "https://p16-oec-va.tiktokcdn.com/frame-5inch-detail-thumb-100.jpg"
+          ],
+          "uri": "frame-5inch-detail"
+        }
+      ],
+      "video": {
+        "id": "tts-vid-001",
+        "url": "https://p16-oec-va.tiktokcdn.com/frame-5inch-demo.mp4",
+        "cover": "https://p16-oec-va.tiktokcdn.com/frame-5inch-video-cover.jpg",
+        "duration": 30
+      },
+      "attributes": [
+        {
+          "attribute_id": "attr_material",
+          "attribute_name": "Material",
+          "attribute_values": [
+            {
+              "value_id": "val_carbon",
+              "value_name": "Carbon Fiber"
+            }
+          ]
+        },
+        {
+          "attribute_id": "attr_size",
+          "attribute_name": "Size",
+          "attribute_values": [
+            {
+              "value_id": "val_5inch",
+              "value_name": "5 Inch"
+            }
+          ]
+        },
+        {
+          "attribute_id": "attr_weight",
+          "attribute_name": "Weight",
+          "attribute_values": [
+            {
+              "value_id": "val_50g",
+              "value_name": "50g"
+            }
+          ]
+        }
+      ],
+      "category_chains": [
+        {
+          "id": "cat_electronics",
+          "parent_id": "cat_root",
+          "local_name": "Electronics",
+          "is_leaf": false
+        },
+        {
+          "id": "cat_drones",
+          "parent_id": "cat_electronics", 
+          "local_name": "Drones & Accessories",
+          "is_leaf": false
+        },
+        {
+          "id": "electronics-456",
+          "parent_id": "cat_drones",
+          "local_name": "Drone Parts",
+          "is_leaf": true
+        }
+      ],
+      "brand": {
+        "id": "brand_motekar",
+        "name": "Motekar FPV"
+      },
+      "manufacturer": {
+        "name": "Motekar Manufacturing",
+        "address": "Jakarta, Indonesia"
+      },
+      "package_weight": 0.05,
+      "package_dimensions": {
+        "length": 25,
+        "width": 25,
+        "height": 5
+      },
+      "delivery_options": [
+        {
+          "delivery_option_id": "jnt_express",
+          "delivery_option_name": "J&T Express",
+          "is_available": true
+        },
+        {
+          "delivery_option_id": "jne_regular",
+          "delivery_option_name": "JNE Regular",
+          "is_available": true
+        },
+        {
+          "delivery_option_id": "sicepat",
+          "delivery_option_name": "SiCepat",
+          "is_available": true
+        }
+      ],
+      "is_cod_allowed": true,
+      "size_chart": {
+        "image": "https://p16-oec-va.tiktokcdn.com/frame-size-chart.jpg",
+        "template": "drone_parts_template"
+      }
+    }
+  },
+  "tiktokshop_variant_list_response": {
+    "code": 0,
+    "message": "success", 
+    "data": {
+      "skus": [
+        {
+          "id": "TTS-VAR-001",
+          "seller_sku": "FRAME-5IN-RED-TTS",
+          "outer_sku_id": "FRAME-5IN-RED",
+          "price": {
+            "amount": "180000",
+            "currency": "IDR"
+          },
+          "stock_infos": [
+            {
+              "available_stock": 10,
+              "reserved_stock": 2,
+              "warehouse_id": "warehouse_jakarta"
+            }
+          ],
+          "identifier_code": {
+            "ean": "",
+            "upc": ""
+          },
+          "sales_attributes": [
+            {
+              "attribute_id": "attr_color",
+              "attribute_name": "Warna",
+              "value_id": "val_red",
+              "value_name": "Merah"
+            }
+          ],
+          "package_weight": 0.05,
+          "package_dimensions": {
+            "length": 25,
+            "width": 25,
+            "height": 5
+          }
+        },
+        {
+          "id": "TTS-VAR-002",
+          "seller_sku": "FRAME-5IN-BLUE-TTS",
+          "outer_sku_id": "FRAME-5IN-BLUE",
+          "price": {
+            "amount": "180000",
+            "currency": "IDR"
+          },
+          "stock_infos": [
+            {
+              "available_stock": 15,
+              "reserved_stock": 1,
+              "warehouse_id": "warehouse_jakarta"
+            }
+          ],
+          "identifier_code": {
+            "ean": "",
+            "upc": ""
+          },
+          "sales_attributes": [
+            {
+              "attribute_id": "attr_color",
+              "attribute_name": "Warna",
+              "value_id": "val_blue",
+              "value_name": "Biru"
+            }
+          ],
+          "package_weight": 0.05,
+          "package_dimensions": {
+            "length": 25,
+            "width": 25,
+            "height": 5
+          }
+        },
+        {
+          "id": "TTS-VAR-003",
+          "seller_sku": "FRAME-5IN-BLACK-TTS",
+          "outer_sku_id": "FRAME-5IN-BLACK",
+          "price": {
+            "amount": "180000",
+            "currency": "IDR"
+          },
+          "stock_infos": [
+            {
+              "available_stock": 8,
+              "reserved_stock": 0,
+              "warehouse_id": "warehouse_jakarta"
+            }
+          ],
+          "identifier_code": {
+            "ean": "",
+            "upc": ""
+          },
+          "sales_attributes": [
+            {
+              "attribute_id": "attr_color",
+              "attribute_name": "Warna",
+              "value_id": "val_black",
+              "value_name": "Hitam"
+            }
+          ],
+          "package_weight": 0.05,
+          "package_dimensions": {
+            "length": 25,
+            "width": 25,
+            "height": 5
+          }
+        }
+      ]
+    }
+  }
+}
