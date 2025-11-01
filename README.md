@@ -4,7 +4,7 @@
 
 **Current Status**: Shopee Integration 85% Complete | Ready for AI-Assisted Development
 
-[![Development Status](https://img.shields.io/badge/Status-Active%20Development-green.svg)](https://github.com/your-org/storesync)
+[![Development Status](https://img.shields.io/badge/Status-Active%20Development-green.svg)](https://github.com/kerjaptc/syncstore)
 [![Shopee Integration](https://img.shields.io/badge/Shopee-85%25%20Complete-orange.svg)](docs/development/shopee-integration/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -130,8 +130,8 @@ This project is **optimized for AI-assisted development** with:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-org/storesync.git
-   cd storesync
+   git clone https://github.com/kerjaptc/syncstore.git
+   cd syncstore
    ```
 
 2. **Install dependencies**
@@ -374,11 +374,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Documentation**: [docs.storesync.com](https://docs.storesync.com)
-- **Issues**: [GitHub Issues](https://github.com/your-org/storesync/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-org/storesync/discussions)
-- **Email**: support@storesync.com
+- **Documentation**: [docs.syncstore.com](https://docs.syncstore.com)
+- **Issues**: [GitHub Issues](https://github.com/kerjaptc/syncstore/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/kerjaptc/syncstore/discussions)
+- **Email**: support@syncstore.com
 
 ---
 
-**Built with ❤️ by the StoreSync Team**
+**Built with ❤️ by the SyncStore Team**
