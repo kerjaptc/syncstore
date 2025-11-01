@@ -19,6 +19,9 @@ import { z } from 'zod';
 // Import master catalog schema
 export * from './master-catalog-schema';
 
+// Import sync logs schema
+export * from './sync-logs-schema';
+
 /**
  * Organizations table - Multi-tenant root entity
  * Each organization represents a business using StoreSync

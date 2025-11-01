@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { ErrorBoundary, LoadingSkeleton } from '@/components/ui/error-boundary';
-import { ArrowLeft, Package, DollarSign, Globe } from 'lucide-react';
+import { ArrowLeft, Package, DollarSign, Globe, RefreshCw, Zap } from 'lucide-react';
 import { toast } from 'sonner';
 
 // Types for master catalog
@@ -38,6 +38,22 @@ export default function ProductDetailPage() {
   
   const [product, setProduct] = useState<MasterProduct | null>(null);
   const [loading, setLoading] = useState(true);
+  const [syncLoading, setSyncLoading] = useState<{
+    shopee: boolean;
+    tiktok: boolean;
+    both: boolean;
+  }>({
+    shopee: false,
+    tiktok: false,
+    both: false,
+  });
+  const [syncStatus, setSyncStatus] = useState<{
+    shopee: 'not_synced' | 'syncing' | 'synced' | 'error';
+    tiktok: 'not_synced' | 'syncing' | 'synced' | 'error';
+  }>({
+    shopee: 'not_synced',
+    tiktok: 'not_synced',
+  });
 
   useEffect(() => {
     if (productId) {
@@ -81,6 +97,76 @@ export default function ProductDetailPage() {
   const getTikTokPrice = (product: MasterProduct) => {
     const basePrice = parseFloat(product.basePrice);
     return basePrice * 1.20; // Phase 1 pricing: TikTok = base × 1.20
+  };
+
+  const handleManualSync = async (platform: 'shopee' | 'tiktok' | 'both') => {
+    if (!product) return;
+
+    try {
+      // Set loading state
+      setSyncLoading(prev => ({ ...prev, [platform]: true }));
+      
+      // Set syncing status
+      if (platform === 'both') {
+        setSyncStatus(prev => ({ ...prev, shopee: 'syncing', tiktok: 'syncing' }));
+      } else {
+        setSyncStatus(prev => ({ ...prev, [platform]: 'syncing' }));
+      }
+
+      const response = await fetch('/api/sync/manual', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          product_id: product.id,
+          target_platform: platform,
+        }),
+      });
+
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.error?.message || 'Sync failed');
+      }
+
+      // Update sync status based on result
+      if (platform === 'both') {
+        setSyncStatus(prev => ({ ...prev, shopee: 'synced', tiktok: 'synced' }));
+        toast.success(`Product synced to both platforms successfully!`);
+      } else {
+        setSyncStatus(prev => ({ ...prev, [platform]: 'synced' }));
+        toast.success(`Product synced to ${platform === 'shopee' ? 'Shopee' : 'TikTok Shop'} successfully!`);
+      }
+
+    } catch (error) {
+      console.error('Sync error:', error);
+      
+      // Set error status
+      if (platform === 'both') {
+        setSyncStatus(prev => ({ ...prev, shopee: 'error', tiktok: 'error' }));
+      } else {
+        setSyncStatus(prev => ({ ...prev, [platform]: 'error' }));
+      }
+
+      toast.error(error instanceof Error ? error.message : 'Failed to sync product');
+    } finally {
+      // Clear loading state
+      setSyncLoading(prev => ({ ...prev, [platform]: false }));
+    }
+  };
+
+  const getSyncStatusBadge = (status: 'not_synced' | 'syncing' | 'synced' | 'error') => {
+    switch (status) {
+      case 'syncing':
+        return <Badge variant="outline" className="text-blue-600 border-blue-600">Syncing...</Badge>;
+      case 'synced':
+        return <Badge variant="default" className="bg-green-600">Synced</Badge>;
+      case 'error':
+        return <Badge variant="destructive">Error</Badge>;
+      default:
+        return <Badge variant="secondary">Not Synced</Badge>;
+    }
   };
 
   if (loading) {
@@ -276,6 +362,62 @@ export default function ProductDetailPage() {
             </CardContent>
           </Card>
 
+          {/* Manual Sync Section */}
+          <Card>
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2">
+                <Zap className="h-5 w-5" />
+                Manual Sync
+              </CardTitle>
+              <CardDescription>
+                Sync this product to marketplace platforms
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <div className="space-y-3">
+                <Button
+                  onClick={() => handleManualSync('shopee')}
+                  disabled={syncLoading.shopee || syncLoading.both}
+                  className="w-full bg-orange-600 hover:bg-orange-700"
+                >
+                  {syncLoading.shopee ? (
+                    <RefreshCw className="h-4 w-4 mr-2 animate-spin" />
+                  ) : (
+                    <Package className="h-4 w-4 mr-2" />
+                  )}
+                  Sync to Shopee
+                </Button>
+
+                <Button
+                  onClick={() => handleManualSync('tiktok')}
+                  disabled={syncLoading.tiktok || syncLoading.both}
+                  className="w-full bg-red-600 hover:bg-red-700"
+                >
+                  {syncLoading.tiktok ? (
+                    <RefreshCw className="h-4 w-4 mr-2 animate-spin" />
+                  ) : (
+                    <Package className="h-4 w-4 mr-2" />
+                  )}
+                  Sync to TikTok Shop
+                </Button>
+
+                <Button
+                  onClick={() => handleManualSync('both')}
+                  disabled={syncLoading.shopee || syncLoading.tiktok || syncLoading.both}
+                  variant="outline"
+                  className="w-full"
+                >
+                  {syncLoading.both ? (
+                    <RefreshCw className="h-4 w-4 mr-2 animate-spin" />
+                  ) : (
+                    <Globe className="h-4 w-4 mr-2" />
+                  )}
+                  Sync to Both Platforms
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+
           {/* Sync Status Section */}
           <Card>
             <CardHeader>
@@ -290,15 +432,15 @@ export default function ProductDetailPage() {
             <CardContent className="space-y-3">
               <div className="flex justify-between items-center">
                 <span className="text-sm font-medium">Shopee</span>
-                <Badge variant="secondary">Not Synced</Badge>
+                {getSyncStatusBadge(syncStatus.shopee)}
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-sm font-medium">TikTok Shop</span>
-                <Badge variant="secondary">Not Synced</Badge>
+                {getSyncStatusBadge(syncStatus.tiktok)}
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-sm font-medium">Tokopedia</span>
-                <Badge variant="secondary">Not Synced</Badge>
+                <Badge variant="secondary">Auto-included with TikTok</Badge>
               </div>
             </CardContent>
           </Card>
