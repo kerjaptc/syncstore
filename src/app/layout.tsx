@@ -4,6 +4,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import { ThemeProvider } from "@/components/theme-provider";
 import { CriticalErrorBoundary } from "@/lib/error-handling";
 import { setupGlobalErrorHandling } from "@/lib/error-handling/global-handler";
+import { Toaster } from "sonner";
 import "./globals.css";
 
 // Initialize global error handling
@@ -69,6 +70,7 @@ export default function RootLayout({
               disableTransitionOnChange
             >
               {children}
+              <Toaster position="top-right" />
             </ThemeProvider>
           </CriticalErrorBoundary>
         </body>
