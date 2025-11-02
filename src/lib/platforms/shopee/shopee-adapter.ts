@@ -463,7 +463,7 @@ export class ShopeeAdapter extends BasePlatformAdapter {
   async updateOrderStatus(orderId: string, status: string, trackingInfo?: { carrier?: string; trackingNumber?: string }): Promise<ApiResponse<void>> {
     try {
       let endpoint = '';
-      let data: any = { order_sn: orderId };
+      const data: any = { order_sn: orderId };
 
       switch (status.toLowerCase()) {
         case 'shipped':

@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-11-02T01:24:11.491Z",
+  "buildStatus": "fail",
+  "testStatus": "fail",
+  "lintStatus": "fail",
+  "typeStatus": "fail",
+  "criticalIssues": [
+    "Build failing - check build logs",
+    "Some tests are failing",
+    "932 linting issues need attention",
+    "736 TypeScript errors need fixing"
+  ],
+  "recommendations": [
+    "🔥 CRITICAL: Fix build errors first - nothing else matters if it doesn't build",
+    "🚨 HIGH: Reduce TypeScript errors - focus on critical ones first",
+    "⚠️  MEDIUM: Fix failing tests - they catch bugs early",
+    "📝 LOW: Clean up linting issues - improves code quality",
+    "🆘 URGENT: Project needs immediate attention to be functional"
+  ],
+  "score": 0
+}

@@ -469,7 +469,7 @@ export class TikTokShopAdapter extends BasePlatformAdapter {
   async updateOrderStatus(orderId: string, status: string, trackingInfo?: { carrier?: string; trackingNumber?: string }): Promise<ApiResponse<void>> {
     try {
       let endpoint = '';
-      let data: any = { order_id: orderId };
+      const data: any = { order_id: orderId };
 
       switch (status.toLowerCase()) {
         case 'shipped':

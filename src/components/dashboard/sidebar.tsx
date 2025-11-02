@@ -89,6 +89,13 @@ const navigationItems = [
     icon: RefreshCw,
     description: 'Synchronization status and logs',
   },
+  {
+    title: 'SyncStore MVP',
+    href: '/dashboard/syncstore-mvp',
+    icon: TestTube,
+    description: 'SyncStore MVP Demo & Features',
+    badge: 'Demo',
+  },
 ];
 
 const settingsItems = [

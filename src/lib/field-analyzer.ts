@@ -158,7 +158,7 @@ export function compareFields(): FieldAnalysis[] {
     const hasShopee = shopeeValue !== undefined;
     const hasTikTok = tiktokValue !== undefined;
     
-    let fieldName = fieldKey;
+    const fieldName = fieldKey;
     let shopeeField = hasShopee ? fieldKey : undefined;
     let tiktokField = hasTikTok ? fieldKey : undefined;
     

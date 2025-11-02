@@ -21,6 +21,19 @@ import { ConnectStoreDialog } from "@/components/stores/connect-store-dialog";
 import { toast } from "sonner";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 
+// Import SyncStore MVP Components
+import { 
+  StoreConnectionWizard,
+  ConnectionStatusDisplay,
+  ProductDashboard,
+  NotificationProvider,
+  NotificationBell,
+  useNotificationHelpers,
+  SyncProgressDisplay,
+  LoadingButton,
+  EmptyState
+} from "@/lib/syncstore-mvp";
+
 interface Store {
   id: string;
   name: string;
@@ -73,10 +86,12 @@ const mockStores: Store[] = [
   }
 ];
 
-export default function StoresPage() {
+function StoresPageContent() {
   const [stores, setStores] = useState<Store[]>(mockStores);
   const [isConnectDialogOpen, setIsConnectDialogOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [showSyncStoreMvp, setShowSyncStoreMvp] = useState(true);
+  const { showSyncNotification, showConnectionNotification } = useNotificationHelpers();
 
   // Handle OAuth callback notifications
   useEffect(() => {
@@ -175,6 +190,9 @@ export default function StoresPage() {
   const handleSyncStore = async (storeId: string) => {
     setIsLoading(true);
     try {
+      // Show sync started notification
+      const syncId = showSyncNotification('started', storeId);
+      
       // Simulate API call
       await new Promise(resolve => setTimeout(resolve, 2000));
       
@@ -185,7 +203,8 @@ export default function StoresPage() {
           : store
       ));
       
-      toast.success("Sinkronisasi dimulai");
+      // Show progress notifications
+      showSyncNotification('progress', storeId, { progress: 50, itemsProcessed: 25, totalItems: 50 });
       
       // Simulate sync completion
       setTimeout(() => {
@@ -194,11 +213,11 @@ export default function StoresPage() {
             ? { ...store, syncStatus: 'active' as const }
             : store
         ));
-        toast.success("Sinkronisasi selesai");
+        showSyncNotification('completed', storeId, { itemsProcessed: 50 });
       }, 5000);
       
     } catch (error) {
-      toast.error("Gagal memulai sinkronisasi");
+      showSyncNotification('failed', storeId, { error: 'Gagal memulai sinkronisasi' });
     } finally {
       setIsLoading(false);
     }
@@ -212,12 +231,15 @@ export default function StoresPage() {
       const data = await response.json();
       
       if (response.ok) {
+        showConnectionNotification('connected', storeId);
         toast.success(`Koneksi OK - ${data.shopName}`);
       } else {
+        showConnectionNotification('error', storeId, data.error);
         toast.error(`Koneksi gagal: ${data.error}`);
       }
       
     } catch (error) {
+      showConnectionNotification('error', storeId, 'Gagal melakukan tes koneksi');
       toast.error("Gagal melakukan tes koneksi");
     } finally {
       setIsLoading(false);
@@ -234,10 +256,19 @@ export default function StoresPage() {
             Kelola dan sinkronisasi toko dari berbagai platform
           </p>
         </div>
-        <Button onClick={() => setIsConnectDialogOpen(true)}>
-          <Plus className="h-4 w-4 mr-2" />
-          Hubungkan Toko
-        </Button>
+        <div className="flex items-center gap-2">
+          <NotificationBell />
+          <Button 
+            variant="outline" 
+            onClick={() => setShowSyncStoreMvp(!showSyncStoreMvp)}
+          >
+            {showSyncStoreMvp ? 'Legacy View' : 'SyncStore MVP'}
+          </Button>
+          <Button onClick={() => setIsConnectDialogOpen(true)}>
+            <Plus className="h-4 w-4 mr-2" />
+            Hubungkan Toko
+          </Button>
+        </div>
       </div>
 
       {/* Stats Overview */}
@@ -301,15 +332,55 @@ export default function StoresPage() {
         </Card>
       </div>
 
-      {/* Stores List */}
-      <div className="space-y-4">
-        <div className="flex items-center justify-between">
-          <h2 className="text-xl font-semibold">Daftar Toko</h2>
-          <Button variant="outline" size="sm" onClick={() => window.location.reload()}>
-            <RefreshCw className="h-4 w-4 mr-2" />
-            Refresh
-          </Button>
+      {/* SyncStore MVP Components */}
+      {showSyncStoreMvp && (
+        <div className="space-y-6">
+          <Card>
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2">
+                <Zap className="h-5 w-5 text-blue-500" />
+                SyncStore MVP - Enhanced Store Management
+              </CardTitle>
+              <CardDescription>
+                Advanced store connection and synchronization features
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-6">
+              {/* Connection Status Display */}
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                {stores.map((store) => (
+                  <ConnectionStatusDisplay
+                    key={store.id}
+                    storeId={store.id}
+                    organizationId="demo-org"
+                    onConnectionDeleted={() => console.log('Connection deleted:', store.id)}
+                    onConnectionUpdated={(connection) => console.log('Connection updated:', connection)}
+                  />
+                ))}
+              </div>
+
+              {/* Product Dashboard */}
+              <div className="mt-8">
+                <ProductDashboard
+                  storeId={stores[0]?.id || ''}
+                  organizationId="demo-org"
+                />
+              </div>
+            </CardContent>
+          </Card>
         </div>
+      )}
+
+      {/* Legacy Stores List */}
+      {!showSyncStoreMvp && (
+        <div className="space-y-4">
+          <div className="flex items-center justify-between">
+            <h2 className="text-xl font-semibold">Daftar Toko</h2>
+            <Button variant="outline" size="sm" onClick={() => window.location.reload()}>
+              <RefreshCw className="h-4 w-4 mr-2" />
+              Refresh
+            </Button>
+          </div>
 
         {stores.length === 0 ? (
           <Card>
@@ -401,13 +472,36 @@ export default function StoresPage() {
             ))}
           </div>
         )}
-      </div>
+        </div>
+      )}
 
-      {/* Connect Store Dialog */}
+      {/* Store Connection Wizard */}
+      {isConnectDialogOpen && (
+        <StoreConnectionWizard
+          organizationId="demo-org"
+          onConnectionComplete={(connection) => {
+            console.log('Store connected:', connection);
+            setIsConnectDialogOpen(false);
+            showConnectionNotification('connected', connection.storeId || 'new-store');
+          }}
+          onCancel={() => setIsConnectDialogOpen(false)}
+        />
+      )}
+
+      {/* Legacy Connect Store Dialog */}
       <ConnectStoreDialog 
-        open={isConnectDialogOpen} 
+        open={false} // Disabled in favor of SyncStore MVP wizard
         onOpenChange={setIsConnectDialogOpen} 
       />
     </div>
+  );
+}
+
+// Wrap with NotificationProvider
+export default function StoresPage() {
+  return (
+    <NotificationProvider>
+      <StoresPageContent />
+    </NotificationProvider>
   );
 }

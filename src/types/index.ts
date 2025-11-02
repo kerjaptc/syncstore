@@ -258,7 +258,10 @@ export interface StorefrontProduct extends Omit<Product, 'organizationId' | 'cos
   inStock: boolean;
 }
 
-export interface StorefrontVariant extends Omit<ProductVariant, 'productId' | 'costPrice'> {
+export interface StorefrontVariant {
+  id: string;
+  name: string;
+  sku: string;
   price: number;
   compareAtPrice?: number;
   quantityAvailable: number;

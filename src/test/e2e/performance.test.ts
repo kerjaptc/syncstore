@@ -233,7 +233,7 @@ describe('Performance Tests', () => {
         tiktokshop: { requestsPerSecond: 5, burstLimit: 25 },
       };
 
-      let requestCounts = { shopee: 0, tiktokshop: 0 };
+      const requestCounts = { shopee: 0, tiktokshop: 0 };
 
       mockExternalAPIs.shopee.fetchProducts.mockImplementation(async () => {
         requestCounts.shopee++;
